@@ -1,0 +1,98 @@
+# Trident — Phases 3b + 6
+# Deploy on VPS HOST (outside the OpenClaw container)
+# Run: docker compose -f docker-compose-trident.yml up -d
+#
+# Services:
+#   qdrant    → vector DB with MMR (Phase 3b) — port 6333
+#   falkordb  → temporal graph DB (Phase 6)   — port 6379
+#   graphiti  → Graphiti MCP over FalkorDB    — port 8000
+#
+# Prerequisites:
+#   - OPENAI_API_KEY set in environment
+#   - Persistent data dirs will be created automatically
+
+services:
+
+  # ─── Phase 3b: Qdrant ────────────────────────────────────────────────
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: trident-qdrant
+    restart: unless-stopped
+    ports:
+      - "6333:6333"   # REST API
+      - "6334:6334"   # gRPC
+    volumes:
+      - qdrant_data:/qdrant/storage
+    environment:
+      QDRANT__SERVICE__HTTP_PORT: 6333
+    mem_limit: 1g
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:6333/healthz"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ─── Phase 6: FalkorDB (Graphiti backend) ────────────────────────────
+  falkordb:
+    image: falkordb/falkordb:latest
+    container_name: trident-falkordb
+    restart: unless-stopped
+    ports:
+      - "6379:6379"   # Redis-compatible protocol
+      - "3000:3000"   # FalkorDB Browser UI
+    volumes:
+      - falkordb_data:/var/lib/falkordb/data
+    mem_limit: 512m
+    healthcheck:
+      test: ["CMD", "redis-cli", "-p", "6379", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ─── Phase 6: Graphiti MCP Server ────────────────────────────────────
+  graphiti:
+    image: zepai/graphiti-mcp:latest
+    container_name: trident-graphiti
+    restart: unless-stopped
+    ports:
+      - "8000:8000"   # MCP HTTP endpoint
+    depends_on:
+      falkordb:
+        condition: service_healthy
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      NEO4J_URI: bolt://falkordb:6379
+      NEO4J_USER: ""
+      NEO4J_PASSWORD: ""
+      # Use FalkorDB driver (compatible with Graphiti)
+      GRAPH_DRIVER: falkordb
+      FALKORDB_HOST: falkordb
+      FALKORDB_PORT: 6379
+    mem_limit: 512m
+
+volumes:
+  qdrant_data:
+    driver: local
+  falkordb_data:
+    driver: local
+
+# ─── Post-deploy steps ───────────────────────────────────────────────────
+# After `docker compose up -d`:
+#
+# 1. Verify Qdrant:
+#    curl http://localhost:6333/collections
+#
+# 2. Create Qdrant collections (run once):
+#    curl -X PUT http://localhost:6333/collections/memory_self \
+#      -H 'Content-Type: application/json' \
+#      -d '{"vectors": {"size": 1536, "distance": "Cosine"}}'
+#    (repeat for: memory_semantic, memory_projects, memory_lessons, memory_daily)
+#
+# 3. Verify Graphiti MCP:
+#    curl http://localhost:8000/mcp/
+#
+# 4. Note the container network IP for OpenClaw to reach these services.
+#    If OpenClaw runs in a Docker container on the same host, use:
+#    - Qdrant: http://host.docker.internal:6333
+#    - Graphiti: http://host.docker.internal:8000
+#    Or use the host's internal IP (e.g., 172.18.0.1)
