@@ -1,0 +1,15 @@
+# Default: ignore everything
+/*
+!/AGENTS.md
+!/SOUL.md
+!/TOOLS.md
+!/USER.md
+!/HEARTBEAT.md
+!/IDENTITY.md
+!/MEMORY.md
+!/.gitignore
+!/memory/
+!/ai-selector.sh
+memory/working-buffer.md
+memory/layer0/last-run.md
+SESSION-STATE.md
