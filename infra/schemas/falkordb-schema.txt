@@ -1,0 +1,10 @@
+Live FalkorDB schema export
+
+Instructions: This file should be populated by running on the live VPS:
+  docker exec memory-falkordb graph.query 'CALL db.schema.constraints'
+
+Last export attempt: 2026-04-12T14:21:00Z
+Environment: VPS (Hostinger)
+Status: docker not available in backup environment - manual export required
+
+Expected content: FalkorDB graph schema constraints and property definitions

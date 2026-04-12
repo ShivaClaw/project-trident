@@ -1,0 +1,7 @@
+{
+  "_note": "Live Qdrant schema export",
+  "_instructions": "This file should be populated by running on the live VPS: docker exec memory-qdrant curl -s http://localhost:6333/collections",
+  "_lastExportDate": "2026-04-12T14:21:00Z",
+  "_environment": "VPS (Hostinger)",
+  "_status": "docker not available in backup environment - manual export required"
+}
