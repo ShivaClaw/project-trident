@@ -4,6 +4,7 @@
 | Week | Starting Balance | Ending Balance | P/L ($) | P/L (%) | Win Days | Notes |
 |---|---|---|---|---|---|---|
 | 2026-03-26 to 2026-04-03 | 1000.00 | -1117.64 | -2117.64 | -211.76% | 1/5 | Catastrophic loss driven by Apr 3 thesis inversion and overleverage |
+| 2026-04-06 to 2026-04-10 | -1117.64 | -1117.64 | 0.00 | 0.00% | 0/0 | No trading activity this week. See previous week's summary for details. |
 
 ## Daily Breakdown
 | Date | Trades | P/L (USDC) | Reasoning Quality | Notes |
