@@ -31,6 +31,15 @@ _Updates logged by weekly cron (Sundays 03:00 MDT)._
 
 ---
 
+## 2026-04-12 — v2026.3.24 → v2026.4.11
+
+- Type: Minor (feature additions + bug fixes, no breaking changes)
+- Decision: **✅ Safe to install**
+- Reasoning: Comprehensive feature release (memory wiki, Teams reactions, Feishu improvements, Ollama caching, plugin manifest activation descriptors) + 15+ bug fixes (OpenAI OAuth, audio transcription, TTS persistence, WhatsApp reactions, Codex QA, Telegram topics, failover classification). **Zero breaking changes detected.** No config schema version bump. All existing plugins remain compatible. Security fixes + reliability improvements. No LCM schema changes. No cron payload mutations. Decision tree: minor version + no breaking changes mentioned + no community reports (search unavailable but changelog is clear) = **safe to proceed immediately**.
+- Action taken: Delivered recommendation via WhatsApp (awaiting G approval for install)
+
+---
+
 ## 2026-04-02 — Cron Created
 
 - **Current version:** 2026.3.23-2
