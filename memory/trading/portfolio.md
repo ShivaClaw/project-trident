@@ -1,12 +1,12 @@
 # Portfolio — Virtual Trading (Hyperliquid Sim)
 
-## Current Open Positions (as of 2026-04-03 4 PM MDT)
+## Current Open Positions (as of 2026-04-13 10:03 AM MDT)
 
 | Asset | Side | Entry | Size | Leverage | SL | TP | Notes |
 |-------|------|-------|------|----------|-----|-----|-------|
-| (none) | | | | | | | |
+| (none) | | | | | | | All positions closed as of April 3, 2:00 PM MDT |
 
-**Margin Usage:** ~0% | **Close by:** 2:00 PM MDT (4:00 PM ET)
+**Margin Usage:** 0% | **Status:** No active positions
 
 ## Session History
 
@@ -21,9 +21,11 @@
 - **Starting Capital:** 1000 USDC
 - **Positions Entered:** See detail log at `/memory/trading/trades/2026-04-03.md`
 - **Day P/L (final): -$2129 USDC** (BZ: -$140, DXY: -$1989, BTC: $0)
+- **All positions closed 2:00 PM MDT**
 
 ## Cumulative P/L
-- Total: **-$2117.64 USDC** (2 trading days)
+- Total: **-$2117.64 USDC** (2 trading days: Apr 2–3)
 
 ## Notes
-- All positions closed at end of trading day (2:00 PM MDT).
+- Virtual simulator inactive since April 3.
+- Portfolio cleaned up 2026-04-13; stale open positions table removed.

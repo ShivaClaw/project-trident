@@ -30,3 +30,4 @@
 - **[2026-04-02] Gmail OAuth token for `gog` currently revoked/expired.** Career-transition.md fixed: now documents BLOCKED monitoring and urgent migration to `himalaya` IMAP before April 7 outreach. Status now synchronized across logs, project, tools, and Layer 0.
 - **[2026-04-02 21:29 UTC] OAuth token failure repeated.** Heartbeat logs consistent revocation issue. Status: awaiting re-auth via Maton oauth-gateway or alternative (himalaya IMAP).
 - **[2026-04-03] Layer 0 timezone issue.** Alert fired due to timezone mismatch (UTC vs MDT). Heartbeat is correctly reading MDT times but Layer 0 cron had UTC logic. Fix: ensure all deadline checks normalize to G's timezone (MDT) before comparison.
+- **[2026-04-12 18:30 EDT] himalaya IMAP migration successful.** Gmail OAuth revocation resolved by migrating email monitoring to himalaya CLI (IMAP/SMTP). Career transition pipeline UNBLOCKED. Batch 2 scheduling operational as of 2026-04-13 21:31 MDT.
