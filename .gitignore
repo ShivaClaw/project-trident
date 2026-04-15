@@ -7,6 +7,9 @@
 !/HEARTBEAT.md
 !/IDENTITY.md
 !/MEMORY.md
+!/CREDENTIAL-LOOKUP-RULE.md
+!/UPDATE-QUICKSTART.md
+!/RESILIENCE-SUMMARY.md
 !/.gitignore
 !/memory/
 !/infra/
@@ -17,4 +20,3 @@ memory/working-buffer.md
 memory/layer0/last-run.md
 infra/.env
 infra/backups/
-SESSION-STATE.md
