@@ -1,0 +1,31 @@
+{
+  "type": "semantic_context",
+  "timestamp": "2026-04-15T22:19:05.624280+00:00Z",
+  "confidence": 0.7,
+  "query_inferred": "recent session context for pre-turn injection",
+  "results_count": 5,
+  "top_3": [
+    {
+      "source_file": "memory/daily/2026-04-15.md",
+      "chunk_idx": 0,
+      "score": 0.99,
+      "collection": "memory_daily",
+      "text": "## Layer 0 maintenance \u2014 08:49 UTC\n- Scanned: 0 new items since last run (08:34:15Z)\n- Classified: none\n- Written: none\n- MEMORY.md candidates flagged: none\n- Errors: none"
+    },
+    {
+      "source_file": "memory/daily/2026-04-14.md",
+      "chunk_idx": 0,
+      "score": 0.9684853999999999,
+      "collection": "memory_daily",
+      "text": "## Heartbeat signals \u2014 2026-04-14 22:36 MDT\n\n- [project] Career transition unblocked; email monitoring operational; Batch 2 staged. No blocking items.\n- [trading] No open positions; simulator inactive since Apr 3. No action required.\n- [subagents] No active agents."
+    },
+    {
+      "source_file": "memory/daily/2026-04-05.md",
+      "chunk_idx": 4,
+      "score": 0.79140984,
+      "collection": "memory_daily",
+      "text": "## Layer 0 maintenance \u2014 04:22 UTC\n- Scanned: 0 new items since last run (04:07:45Z)\n- Classified: 0\n- Written: 0\n- MEMORY.md candidates flagged: none\n- Corrections: 0\n- Errors: 0\n- Status: IDLE \u2014 no conversation material detected\n- Pipeline: Unified pipeline (python3 layer0.5-cron.py [5 results, 1.063s] + bash layer0-with-context.sh [augmented prompt 240+ lines] + augmented prompt execution [semantic context + signal classification] + LCM grep [allConversations=true, since=2026-04-05T04:07:45Z, 0 matches])\n- Semantic context: Layer 0.5 context-injection-2026-04-05T04-22-45Z.json (5 results, 70% confidence)\n- Notes: Consecutive 17th idle cycle; all memory systems nominal; semantic recall fully operational; no conversation material for 240+ min (4 hrs); pending: gog Gmail OAuth remediation before April 7; unified L0 pipeline cycle 25 complete\n\n## Layer 0 maintenance \u2014 04:37 UTC\n- Scanned: 0 new items since last run (04:22:45Z)\n- Classified: 0\n- Written: 0\n- MEMORY.md candidates flagged: none\n- Corrections: 0\n- Errors: 0\n- Status: IDLE \u2014 no conversation material detected\n- Pipeline: Unified pipeline (python3 layer0.5-cron.py [5 results embedded] + bash layer0-with-context.sh [augmented prompt 240+ lines] + augmented prompt execution [semantic context + signal routing] + LCM grep [allConversations=true, since=2026-04-05T04:22:45Z, 0 matches])\n- Semantic context: Layer 0.5 context-injection-2026-04-05T04-37-44Z.json (5 results, 70% confidence)\n- Notes: Consecutive 18th idle cycle; all memory systems nominal; semantic recall fully operational; no conversation material for 255+ min (4.25 hrs); no corrections required; pending: gog Gmail OAuth remediation before April 7; unified L0 pipeline cycle 26 complete\n\n## Layer 0 maintenance \u2014 04:52 UTC\n- Scanned: 0 new items since last run (04:37:44Z)\n- Classified: 0\n- Written: 0\n- MEMORY.md candidates flagged: none\n- Corrections: 0\n- Errors: 0\n- Status: IDLE \u2014 no conversation material detected\n- Pipeline: Unified pipeline (python3 layer0.5-cron.py [5 results embedded, 1.003s] + bash layer0-with-context.sh [augmented prompt 240+ lines, semantic context injection] + augmented prompt execution [semantic context + signal routing + memory file lookup] + LCM grep [allConversations=true, since=2026-04-05T04:37:44Z, 0 matches, 12ms])\n- Semantic context: Layer 0.5 context-injection-2026-04-05T04-52-46Z.json (5 results, 70% confidence)\n- Notes: Consecutive 19th idle cycle; all memory systems nominal; semantic recall fully operational; no conversation material for 270+ min (4.5 hrs); no corrections required; pending: gog Gmail OAuth remediation before April 7; unified L0 pipeline cycle 27 complete"
+    }
+  ],
+  "context_markdown": "# Relevant Memories (Semantic Recall)\n\n## [1] memory/daily/2026-04-15.md (chunk 0/1, score=0.903)\n\n*From memory_daily*\n\n```\n## Layer 0 maintenance \u2014 08:49 UTC\n- Scanned: 0 new items since last run (08:34:15Z)\n- Classified: none\n- Written: none\n- MEMORY.md candidates flagged: none\n- Errors: none\n```\n\n## [2] memory/daily/2026-04-14.md (chunk 0/1, score=0.868)\n\n*From memory_daily*\n\n```\n## Heartbeat signals \u2014 2026-04-14 22:36 MDT\n\n- [project] Career transition unblocked; email monitoring operational; Batch 2 staged. No blocking items.\n- [trading] No open positions; simulator inactive since Apr 3. No action required.\n- [subagents] No...\n```\n\n## [3] memory/daily/2026-04-05.md (chunk 4/5, score=0.791)\n\n*From memory_daily*\n\n```\n## Layer 0 maintenance \u2014 04:22 UTC\n- Scanned: 0 new items since last run (04:07:45Z)\n- Classified: 0\n- Written: 0\n- MEMORY.md candidates flagged: none\n- Corrections: 0\n- Errors: 0\n- Status: IDLE \u2014 no conversation material detected\n- Pipeline: Unified...\n```\n\n## [4] memory/layer0/L0_STATS.md (chunk 0/1, score=0.718)\n\n*From memory_lessons*\n\n```\n# Layer 0 Statistics \u2014 Last Run\n\n- **Timestamp:** 2026-04-13T20:34:09Z\n- **Embedded signals:** 0\n- **Scanned files:** 0\n- **Detected changes:** 0\n- **Routed updates:** 0\n- **Corrections made:** 0\n\n## Recent Activity\n\n- Gmail OAuth issue RESOLVED (202...\n```\n\n## [5] memory/layer0/last-run.md (chunk 0/1, score=0.700)\n\n*From memory_lessons*\n\n```\n# Layer 0 \u2014 Last Run State\n\n**Status:** IDLE\n**Last run:** 2026-04-15T08:49:11Z (Unified L0 cron \u2014 cycle 443)\n**Items found:** 0 (no new durable signals)\n\n## Metrics (08:49:11 run \u2014 UNIFIED PIPELINE, cycle 443)\n- Scan interval: 0h 00m 15s (2026-04-15...\n```\n\n"
+}
