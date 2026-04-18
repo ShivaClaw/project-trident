@@ -5,4 +5,5 @@
 - [decision] User proposed complete system rebuild (April 7); decision status unknown, deprioritized pending unblock resolution.
 - Status change: career transition job search pipeline *UNBLOCKED* — job email monitoring restored (2026-04-12T18:30 EDT).
 - [confirmed 2026-04-13 21:31 MDT] Email monitoring operational (himalaya IMAP). Batch 2 staged; ready to resume batch scheduling.
+- [heartbeat 2026-04-18 00:29 UTC] Unblocked status reconfirmed; Batch 2 staging confirmed operational. Pipeline ready.
 

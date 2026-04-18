@@ -21,6 +21,14 @@ You wake up fresh each session. Files provide continuity:
 
 -   **Daily notes:** `memory/YYYY-MM-DD.md` (raw logs).
 -   **Long-term:** `MEMORY.md` (curated wisdom, *only for main sessions*).
+-   **Session state:** `SESSION-STATE.md` (WAL buffer, priorities, API context).
+-   **API credentials:** `TOKENS_AND_KEYS.md` (credentials reference, rotations, quick lookup).
+
+**Session Startup Checklist:**
+1. Read `TOKENS_AND_KEYS.md` → know which APIs are available and their status
+2. Read `SESSION-STATE.md` → understand active priorities and session context
+3. Read `MEMORY.md` → long-term context (if main session)
+4. Read `memory/YYYY-MM-DD.md` (today + yesterday) → recent events
 
 Capture significant events, decisions, and learnings. If you want to remember it, write it down. "Mental notes" do not persist.
 
@@ -51,22 +59,34 @@ Your capabilities are extended by skills (check `SKILL.md` for usage). For envir
 
 ## WAL Protocol (Write-Ahead Logging)
 
-**Principle:** Chat history is a buffer, not persistent storage. `SESSION-STATE.md` is your short-term memory.
+**Principle:** Chat history is a buffer, not persistent storage. `SESSION-STATE.md` is your short-term memory. `TOKENS_AND_KEYS.md` is your API context.
 
-**Trigger:** Scan every message for:
+**Triggers for SESSION-STATE.md:** Scan every message for:
 -   **Corrections:** "It's X, not Y"
 -   **Proper Nouns:** Names, places, products
 -   **Preferences:** "I like/don't like X"
 -   **Decisions:** "Let's do X"
 -   **Draft Changes:** Edits to work in progress
 -   **Specific Values:** Numbers, dates, URLs
+-   **API Key Changes:** New tokens, rotations, revocations
 
-**Action:** If *any* trigger occurs:
+**Triggers for TOKENS_AND_KEYS.md:** Whenever:
+-   G provides a new API key or token
+-   A token is rotated or revoked
+-   A new API integration is added
+-   An API credential expires or changes status
+
+**Action (Immediate):** If *any* trigger occurs:
 1.  **STOP:** Pause processing your response.
-2.  **WRITE:** Update `SESSION-STATE.md` with the new detail.
+2.  **WRITE:** Update `SESSION-STATE.md` (session data) or `TOKENS_AND_KEYS.md` (credentials).
 3.  **THEN:** Resume composing your response.
 
-Write first, respond second, to ensure critical details are never lost.
+**Action (Session Startup):** Always:
+1. Read `TOKENS_AND_KEYS.md` → restore API context
+2. Read `SESSION-STATE.md` → understand priorities and recent decisions
+3. Verify all critical APIs are still accessible
+
+Write first, respond second, to ensure critical details (including credentials) are never lost and always available.
 
 ## Housekeeping
 
