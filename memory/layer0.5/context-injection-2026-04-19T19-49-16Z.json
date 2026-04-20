@@ -1,0 +1,31 @@
+{
+  "type": "semantic_context",
+  "timestamp": "2026-04-19T19:49:16.988413+00:00Z",
+  "confidence": 0.7,
+  "query_inferred": "recent session context for pre-turn injection",
+  "results_count": 5,
+  "top_3": [
+    {
+      "source_file": "memory/daily/2026-04-17.md",
+      "chunk_idx": 0,
+      "score": 0.87202854,
+      "collection": "memory_daily",
+      "text": "## Heartbeat signals \u2014 2026-04-17 22:59 MDT\n\n- [project] Career transition unblocked; email monitoring operational; Batch 2 staged. No blocking items.\n- [trading] Outside trading hours. No action required.\n- [subagents] No active agents."
+    },
+    {
+      "source_file": "memory/daily/2026-04-18.md",
+      "chunk_idx": 0,
+      "score": 0.8631145499999999,
+      "collection": "memory_daily",
+      "text": "## Heartbeat signals \u2014 2026-04-18 22:46 MDT\n\n- [project] Career transition unblocked; email monitoring operational; Batch 2 staged. No blocking items.\n- [trading] Outside trading hours (Saturday). No action required.\n- [subagents] No active agents."
+    },
+    {
+      "source_file": "memory/daily/2026-04-14.md",
+      "chunk_idx": 0,
+      "score": 0.7604356999999999,
+      "collection": "memory_daily",
+      "text": "## Heartbeat signals \u2014 2026-04-14 22:36 MDT\n\n- [project] Career transition unblocked; email monitoring operational; Batch 2 staged. No blocking items.\n- [trading] No open positions; simulator inactive since Apr 3. No action required.\n- [subagents] No active agents."
+    }
+  ],
+  "context_markdown": "# Relevant Memories (Semantic Recall)\n\n## [1] memory/daily/2026-04-17.md (chunk 0/1, score=0.772)\n\n*From memory_daily*\n\n```\n## Heartbeat signals \u2014 2026-04-17 22:59 MDT\n\n- [project] Career transition unblocked; email monitoring operational; Batch 2 staged. No blocking items.\n- [trading] Outside trading hours. No action required.\n- [subagents] No active agents.\n```\n\n## [2] memory/daily/2026-04-18.md (chunk 0/1, score=0.763)\n\n*From memory_daily*\n\n```\n## Heartbeat signals \u2014 2026-04-18 22:46 MDT\n\n- [project] Career transition unblocked; email monitoring operational; Batch 2 staged. No blocking items.\n- [trading] Outside trading hours (Saturday). No action required.\n- [subagents] No active agents.\n```\n\n## [3] memory/daily/2026-04-14.md (chunk 0/1, score=0.760)\n\n*From memory_daily*\n\n```\n## Heartbeat signals \u2014 2026-04-14 22:36 MDT\n\n- [project] Career transition unblocked; email monitoring operational; Batch 2 staged. No blocking items.\n- [trading] No open positions; simulator inactive since Apr 3. No action required.\n- [subagents] No...\n```\n\n## [4] memory/projects/memory-architecture-final.md (chunk 1/2, score=0.651)\n\n*From memory_projects*\n\n```\n**Status:** \u2705 Deployed (2026-04-02) \u2014 awaiting OpenClaw network integration  \n**Container:** `memory-qdrant` on Hostinger VPS  \n**External URL:** `https://qdrant.trident-memory.com` (Traefik HTTPS)  \n**Internal URL:** `http://memory-qdrant:6333` (req...\n```\n\n## [5] memory/projects/trident-plugin.md (chunk 0/1, score=0.644)\n\n*From memory_projects*\n\n```\n# Trident Plugin \u2014 Project Log\n\n## Overview\nTrident is a code plugin for clawhub registration. Started 2026-04-17 (15:58-16:03 EDT).\n\n## Status\n- **Current:** Active (GitHub repo created, package.json added, code pushed)\n- **Phase:** Publishing prep ...\n```\n\n"
+}

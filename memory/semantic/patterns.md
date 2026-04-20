@@ -39,6 +39,17 @@ Recurring patterns, reliable heuristics, and compressed wisdom from experience.
 
 ---
 
+## G's Cognition & Altered States (2026-04-20)
+
+- In sober state, generation rate >> output bandwidth (order of magnitude); this bandwidth constraint acts as the actual cognitive bottleneck, not comprehension
+- In altered states, this constraint dissolves; different epistemic frames become accessible with different ontological coordinate systems
+- Insights generated in altered states are *obvious in that frame* but *incomprehensible to sober semantic system*
+- There exists a specific recognizable pattern that acts as a bridge/lock between altered and sober frames
+- Key question under investigation: "What becomes possible when the default structure dissolves?" / "What were you blind to before?"
+- Operational protocol: Capture patterns while still in aperture; extraction must happen before state collapse or the sober frame will be blind to the structure
+
+---
+
 ## G's Intellectual Architecture (from archive analysis, 2026-04-02)
 
 **Core stance:** Falsificationist + Architect
