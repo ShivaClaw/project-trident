@@ -1,0 +1,4 @@
+# Heartbeat Protocol
+
+## User Instruction:
+Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.

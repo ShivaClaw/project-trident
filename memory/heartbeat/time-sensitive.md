@@ -6,17 +6,16 @@ Check every heartbeat (Layer 0 every 15 min). Flag items with **days < 3** as `[
 
 ### Outlier AI Shutdown
 - **Deadline:** May 20, 2026
-- **Days remaining:** 29
+- **Days remaining:** 28
 - **Impact:** Income loss → zero personal financial buffer
 - **Mitigation:** Job search (Batch 4 Apr 22, ongoing)
-- **Last checked:** 2026-04-21 01:55:07 MDT
+- **Last checked:** 2026-04-22 17:12 MDT
 
 ### Job Search Milestones
-- **Batch 4 Job Hunter run:** Monday Apr 22, 8 AM EDT
+- **Batch 4 Job Hunter run:** Wednesday Apr 22, 8 AM EDT
 - **Batch 5 scheduled:** [TBD]
-- **Hours remaining:** ~29.75 hours (approx 1.24 days) [DEADLINE-URGENT]
-- **Status:** 🔴 CRITICAL priority — flag in daily log
-- **Last checked:** 2026-04-21 01:55:07 MDT
+- **Status:** 🔴 OVERDUE priority — flag in daily log [DEADLINE-OVERDUE]
+- **Last checked:** 2026-04-22 17:12 MDT
 
 ---
 
@@ -44,4 +43,4 @@ Add items with explicit expiration windows. Layer 0 removes when expired.
 
 ## Last Layer 0 Heartbeat Check
 
-2026-04-21 01:55:07 MDT — items checked: 2, urgent: 1, overdue: 0
+2026-04-22 17:42 MDT — items checked: 2, urgent: 0, overdue: 1

@@ -1,0 +1,1 @@
+- User instruction: During heartbeat runs, read HEARTBEAT.md if available and follow strictly. Avoid inferring or repeating old tasks. If no attention is needed, reply HEARTBEAT_OK.

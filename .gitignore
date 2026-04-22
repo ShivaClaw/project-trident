@@ -18,5 +18,6 @@
 !/ai-selector.sh
 memory/working-buffer.md
 memory/layer0/last-run.md
+memory/CREDENTIALS-ACTIVE.md
 infra/.env
 infra/backups/

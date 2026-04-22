@@ -1,0 +1,3 @@
+# Core Instructions
+
+- **HEARTBEAT Protocol:** Always read `HEARTBEAT.md` if it exists. Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply `HEARTBEAT_OK`.
