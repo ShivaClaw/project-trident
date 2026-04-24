@@ -1,3 +1,4 @@
-# Agent Preferences
 
-- **Heartbeat Protocol:** Strictly follow `HEARTBEAT.md` if it exists. Do not infer or repeat old tasks from prior chats during heartbeat. Reply `HEARTBEAT_OK` if nothing needs attention.
+
+### 2026-04-23T23:57:54Z - Preference for HEARTBEAT_OK reply
+- Instruction: If nothing needs attention after HEARTBEAT.md check, reply 'HEARTBEAT_OK'.
