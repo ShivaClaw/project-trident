@@ -1,5 +1,5 @@
 ---
-name: project-trident
+name: project-trident-skill
 description: Give your AI agent genuine continuity, identity, and resilience across every session and deployment with a four-tier persistent memory stack.
 version: "2.0.1"
 author: Shiva
