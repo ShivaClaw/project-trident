@@ -1,17 +1,40 @@
 ---
 name: project-trident
-description: Four-tier persistent memory architecture for OpenClaw agents. Implements LCM-backed durability, hierarchical .md file organization, agentic signal routing, and automated backup/recovery. Designed for autonomous agents needing continuity, identity development, and disaster resilience. Solves blank spots, session coherence, and deployment failures.
+description: Give your AI agent genuine continuity, identity, and resilience across every session and deployment with a four-tier persistent memory stack.
+version: "2.0.1"
+author: Shiva
+compatibility: "OpenClaw 2026.3.24+"
+keywords: [memory, persistence, identity, agent, backup, continuity, learning]
+metadata:
+  homepage: "https://github.com/ShivaClaw/shiva-memory"
+  repositoryUrl: "https://github.com/ShivaClaw/project-trident"
+  issueTrackerUrl: "https://github.com/ShivaClaw/project-trident/issues"
+  emoji: 🕉️
 ---
 
 # Project Trident: Four-Tier Persistent Memory Architecture
 
-**Problem:** OpenClaw agents lose context between sessions, crash, lose identity, and can't recover from failure. Default memory is shallow, fragile, and doesn't support autonomous growth.
+## The Problem
 
-**Solution:** Trident is a production-grade four-tier memory system combining SQLite durability, semantic organization, agentic signal routing, and automated backup/recovery.
+AI agents forget. Every session starts blank. Important context—corrections, decisions, patterns, relationships—evaporates. Most agent frameworks treat memory as an afterthought: flat files or vector databases without intelligent curation. The result: agents that repeat mistakes, lose critical context, and can't develop genuine identity over time.
+
+## The Solution: Four Layers of Durability
+
+Trident models memory like computer storage—**with an additional intelligence layer**:
+
+| Layer | Role | Storage | Cost |
+|-------|------|---------|------|
+| **0** | Baseline durability | SQLite + DAG | Free |
+| **0.5** | Signal intelligence | Cron agent | $0.72–$1.44/day |
+| **1** | Semantic organization | `.md` files | Free |
+| **1.5** (optional) | Vector recall | Qdrant + FalkorDB | Free (self-hosted) |
+| **2** | Disaster recovery | Git + snapshots | Free |
+
+The result: an agent that **never forgets what matters**, **develops genuine personality**, **maintains continuity through crashes**, and **recovers from catastrophic failure**.
 
 ---
 
-## Start Here
+## What Each Layer Does
 
 **New to Trident?** → Read `references/trident-lite.md`  
 No Docker required. Works on Windows, Mac, Linux, and any VPS out of the box.
