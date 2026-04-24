@@ -21,3 +21,5 @@ memory/layer0/last-run.md
 memory/CREDENTIALS-ACTIVE.md
 infra/.env
 infra/backups/
+.env.secret
+.env.*.secret
