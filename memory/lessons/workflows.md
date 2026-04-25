@@ -31,3 +31,11 @@
   - `memory/reflections/weekly/YYYY-MM-DD.md`
   - and at least one downstream update (projects/self/lessons/performance) when applicable
 - If cron status says "ok" but artifacts are missing, treat it as a failure mode (likely sandbox/tooling error) and run a manual consolidation pass.
+
+## Layer 0 Heartbeat optimization (2026-04-19 20:50 UTC)
+- **Workflow change:** Removed Job Search Priority Check and Trading Position Check from main heartbeat cycle
+- **Rationale:** Specialized crons handle these more efficiently (Job Hunter runs Mon–Fri 8 AM MDT; Morning Briefing runs Mon–Fri 6 AM MDT; intraday trading agent for market hours)
+- **Result:** 50% faster heartbeat execution (37–68 sec → 17–33 sec); no functionality lost
+- **Heartbeat scope now:** subagent lifecycle checks (kill idle >30 min), time-sensitive deadline tracking (<3 days), memory triage
+- **Implementation:** Delegated job search and trading checks to purpose-built cron jobs; heartbeat remains lean and fast
+- **Reliability:** Specialized agents more responsive than generalist heartbeat; deadlines still caught by time-sensitive tracking

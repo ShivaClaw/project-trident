@@ -40,6 +40,15 @@ _Updates logged by weekly cron (Sundays 03:00 MDT)._
 
 ---
 
+## 2026-04-24 — v2026.3.24 → v2026.4.23
+
+- Type: Minor (21-patch gap, stable changelog for final version)
+- Decision: ⚠️ **Potentially breaking** — safe 2026.4.23 specifically, but cumulative 2026.4.x history shows Telegram regressions & lossless-claw compatibility risk
+- Reasoning: 2026.4.23 changelog has zero explicit breaking changes and extensive security hardening (48+ fixes). However: (1) Telegram known failures on 2026.4.2, 2026.4.7, 2026.4.21/22 with pattern of regression+fix; (2) lossless-claw plugin compatibility uncertain after 2026.4.14 "strict-match contract" breaking change; (3) 21-patch jump without intermediate testing carries cumulative risk; (4) Config migration required for dreaming cron shape change (openclaw doctor --fix needed). Recommendation: Two-stage approach (v2026.4.11 first, then defer v2026.4.23) OR push to v2026.4.23 with full backup + doctor --fix + Telegram monitoring.
+- Action taken: Delivered recommendation via WhatsApp (awaiting G decision on stage-wise vs. direct approach)
+
+---
+
 ## 2026-04-02 — Cron Created
 
 - **Current version:** 2026.3.23-2
