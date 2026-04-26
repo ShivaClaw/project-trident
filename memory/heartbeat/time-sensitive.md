@@ -9,13 +9,13 @@ Check every heartbeat (Layer 0 every 15 min). Flag items with **days < 3** as `[
 - **Days remaining:** 26
 - **Impact:** Income loss → zero personal financial buffer
 - **Mitigation:** Job search (Batch 4 Apr 22, ongoing)
-- **Last checked:** 2026-04-24 21:27 UTC
+- **Last checked:** 2026-04-26 04:54 UTC
 
 ### Job Search Milestones
 - **Batch 4 Job Hunter run:** Wednesday Apr 22, 8 AM EDT
 - **Batch 5 scheduled:** [TBD]
 - **Status:** 🔴 OVERDUE priority — flag in daily log [DEADLINE-OVERDUE]
-- **Last checked:** 2026-04-25 07:42 UTC (cycle #64)
+- **Last checked:** 2026-04-26 04:54 UTC (cycle #110) — [DEADLINE-OVERDUE] 4 days past Apr 22
 
 ---
 
@@ -43,4 +43,4 @@ Add items with explicit expiration windows. Layer 0 removes when expired.
 
 ## Last Layer 0 Heartbeat Check
 
-2026-04-25 04:12 UTC (cycle #49) — items checked: 2, urgent: 0, overdue: 1 (Batch 4 search)
+2026-04-26 04:54 UTC (cycle #110) — items checked: 2, urgent: 0, overdue: 1 (Batch 4 search — 4 days overdue)
