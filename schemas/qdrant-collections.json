@@ -1,0 +1,8 @@
+{
+  "note": "Qdrant schema export",
+  "instructions": "To export live Qdrant collections from VPS:",
+  "command": "docker exec memory-qdrant curl -s http://localhost:6333/collections",
+  "vps_host": "1489775",
+  "timestamp": "2026-04-26T10:35:00Z",
+  "status": "Generated on Layer 2 Backup Agent - local services not running"
+}
