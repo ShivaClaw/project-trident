@@ -1,0 +1,10 @@
+FalkorDB Schema Export
+Generated: 2026-04-26T10:35:00Z
+VPS: 1489775
+
+Instructions: To export live FalkorDB schema from VPS:
+docker exec memory-falkordb redis-cli CALL db.schema.constraints
+
+Status: Generated on Layer 2 Backup Agent - local services not running
+
+NOTE: This is a placeholder. Run the command above on the VPS to get live schema.
