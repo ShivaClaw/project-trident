@@ -1,0 +1,81 @@
+{
+  "collections": [
+    {
+      "name": "memory_self",
+      "vectors_count": 18,
+      "points_count": 18,
+      "indexed_vectors_count": 18,
+      "config": {
+        "status": "green",
+        "vector": {
+          "size": 1536,
+          "distance": "Cosine"
+        }
+      },
+      "payload_schema": {
+        "source": {
+          "data_type": "text"
+        },
+        "chunk_index": {
+          "data_type": "integer"
+        },
+        "embedded_at": {
+          "data_type": "text"
+        }
+      }
+    },
+    {
+      "name": "memory_semantic",
+      "vectors_count": 56,
+      "points_count": 56,
+      "indexed_vectors_count": 56,
+      "config": {
+        "status": "green",
+        "vector": {
+          "size": 1536,
+          "distance": "Cosine"
+        }
+      }
+    },
+    {
+      "name": "memory_projects",
+      "vectors_count": 19,
+      "points_count": 19,
+      "indexed_vectors_count": 19,
+      "config": {
+        "status": "green",
+        "vector": {
+          "size": 1536,
+          "distance": "Cosine"
+        }
+      }
+    },
+    {
+      "name": "memory_lessons",
+      "vectors_count": 9,
+      "points_count": 9,
+      "indexed_vectors_count": 9,
+      "config": {
+        "status": "green",
+        "vector": {
+          "size": 1536,
+          "distance": "Cosine"
+        }
+      }
+    },
+    {
+      "name": "memory_daily",
+      "vectors_count": 6,
+      "points_count": 6,
+      "indexed_vectors_count": 6,
+      "config": {
+        "status": "green",
+        "vector": {
+          "size": 1536,
+          "distance": "Cosine"
+        }
+      }
+    }
+  ],
+  "backed_up_at": "2026-04-28T13:31:00Z"
+}

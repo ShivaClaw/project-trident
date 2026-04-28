@@ -10,6 +10,11 @@
 !/.gitignore
 !/memory/
 !/ai-selector.sh
+!/docker-compose.yml
+!/.env.example
+!/schemas/
 memory/working-buffer.md
 memory/layer0/last-run.md
 SESSION-STATE.md
+.env.secret
+.env

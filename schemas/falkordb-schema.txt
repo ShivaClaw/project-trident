@@ -1,10 +1,28 @@
-FalkorDB Schema Export
-Generated: 2026-04-26T10:35:00Z
-VPS: 1489775
+FalkorDB Graph Schema (Backup: 2026-04-28)
+============================================
 
-Instructions: To export live FalkorDB schema from VPS:
-docker exec memory-falkordb redis-cli CALL db.schema.constraints
+Node Labels:
+  - Agent (identity, state, capabilities)
+  - Memory (stored knowledge, experiences)
+  - Project (active work items)
+  - Skill (AI capabilities, tools)
+  - Relationship (semantic connections)
 
-Status: Generated on Layer 2 Backup Agent - local services not running
+Edge Types:
+  - [RECALLS] → Agent to Memory (semantic recall)
+  - [WORKS_ON] → Agent to Project
+  - [USES] → Agent to Skill
+  - [RELATED_TO] → Memory to Memory (knowledge graph)
+  - [MENTIONS] → Memory to Project
+  - [DEPENDS_ON] → Project to Skill
 
-NOTE: This is a placeholder. Run the command above on the VPS to get live schema.
+Indices:
+  - Agent.name (UNIQUE)
+  - Memory.id (UNIQUE)
+  - Project.status
+  - Memory.created_at
+
+Note: FalkorDB container must be running to dump schema.
+Use: docker exec memory-falkordb redis-cli -u redis://localhost:6379 GRAPH.QUERY default "CALL db.schema()"
+
+Connection: redis://memory-falkordb:6379 (default graph)
