@@ -25,3 +25,4 @@
 - Mistral Small 3.2 correct model ID on OR: `mistralai/mistral-small-3.2-24b-instruct`
 - Free-tier OR models (step-3.5-flash:free) go rate-limited without warning — unreliable as last resort
 - gpt-5.2 requires `max_completion_tokens` not `max_tokens`
+- **himalaya IMAP credential failure (Apr 27–28):** OAuth setup completed Apr 12, but himalaya returning "Invalid credentials" on IMAP auth attempts. Persisting through Apr 28. Likely config/token mismatch rather than OAuth flow failure. Workaround: manual email checks via browser. [updated 2026-04-28]

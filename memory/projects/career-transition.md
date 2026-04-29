@@ -79,17 +79,27 @@ Get G employed before May 20, 2026 (Outlier AI shutdown). Target: higher-leverag
 
 ---
 
-## Current state (as of March 27)
+## Current state (as of April 28 03:40 UTC)
 - Sectors researched and prioritized
 - Cold outreach template drafted
 - Prospect list built (40+ companies)
-- *All blocking items resolved; the 58-day cold outreach sprint has officially begun.*
+- Blocking items resolved March 27; 58-day cold outreach sprint **NOT YET INITIATED**
+- **🔴 ACTIVE BLOCKER (Critical):** Job Search Batch 2 (15 companies) staged but cold outreach not executed. Root cause: Unresolved strategic questions blocking launch.
+- **🔴 JOB SEARCH BATCH 4:** **10+ DAYS OVERDUE** (due 2026-04-22, now 2026-04-28). Status unclear; may be superseded by Batch 2 focus. **ESCALATE on next G input.**
+- **⚠️ Tool blocker:** himalaya credential issue persisting (detected Apr 27 heartbeat, confirmed Apr 28). OAuth setup completed Apr 12, but himalaya IMAP returning "Invalid credentials" error since then. Root cause: Config/token mismatch in password-store. Manual email checks via browser remain viable. [updated 2026-04-28]
+- **Timeline remaining:** 22 days to May 20, 2026 deadline
+- **Heartbeat observation:** Recurring pattern detected — multiple triage cycles show identical blocking conditions without escalation. 4 consecutive cycles (Apr 27, 21:49–22:49 EDT) + current state suggest systemic blocker requiring explicit G decision, not iterative re-analysis.
 
 ## Next steps
 - Begin cold outreach to top 5–7 Tier 1 companies immediately.
 - Continue refining prospect list and outreach strategy.
 
-## Unresolved questions
-- What is the best framing to position the cannabis → biotech pivot without triggering stigma?
-- Which target archetype is strongest fit: ops leadership, technical program manager, research operations, or facility/process engineering?
-- Any warm intros that can compress the timeline?
+## Unresolved questions (BLOCKING BATCH 2 LAUNCH)
+1. **Positioning/stigma:** What is the best framing to position the cannabis → biotech pivot without triggering stigma? How to present 10 years agriculture ops credibly for biotech?
+2. **Role archetype:** Which target archetype is strongest fit: ops leadership, technical program manager, research operations, or facility/process engineering? (Affects outreach pitch and prospect targeting)
+3. **Warm intros:** Network activation strategy. Any warm intros that can compress the timeline? (Affects outreach sequencing)
+
+**Status:** These three questions directly block Batch 2 cold outreach execution. Requires explicit G decision/input to unblock.
+
+## Known blockers
+- **himalaya IMAP credential issue (Apr 27):** Tool returning "Invalid credentials" despite OAuth setup completed Apr 12. Root cause: Config/token mismatch. This blocks automated email monitoring for job search responses. Manual email checks via browser remain viable.
