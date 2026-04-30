@@ -5,11 +5,11 @@
 ## Critical (OVERDUE)
 
 - **Job Search Batch 4**
-  - Due: 2026-04-22 (7 days overdue)
+  - Due: 2026-04-22 (8 days overdue)
   - Status: 🔴 **BLOCKED** — awaiting G response/action
   - Action: **ESCALATE IMMEDIATELY** when Shiva receives new user input
   - Notes: Batch 5 scheduling blocked awaiting G input; both batches stalled
-  - [updated 2026-04-28T20:27Z by L0 heartbeat cycle #324]
+  - [updated 2026-04-30T12:59Z by L0 heartbeat cycle #413]
 
 ## Warning (Due Within 7 Days)
 

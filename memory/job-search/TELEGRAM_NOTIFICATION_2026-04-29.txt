@@ -1,0 +1,60 @@
+TELEGRAM NOTIFICATION (TO BE SENT)
+=====================================
+
+TO: Brandon Kirksey (+15307104559 WhatsApp/Telegram)
+FROM: Job Hunter Agent (Cron: Weekday 8:00 AM)
+TIMESTAMP: 2026-04-29 08:00 AM ET
+PRIORITY: MEDIUM (Action Required)
+
+---
+
+MESSAGE CONTENT:
+
+🎯 **Job Hunter Update - April 29, 2026 (Wednesday 8:00 AM)**
+
+**Status:** 8 Gmail Drafts Ready ✅
+
+Yesterday's search created **8 high-fit opportunities**. All drafts in Gmail, ready to review & send.
+
+---
+
+**📊 RECOMMENDATION: SEND TIER 1 TODAY**
+
+**Tier 1 (Send Now):**
+1. **True Anomaly** - Autonomy Engineer | Denver | $120-155K
+   → [Draft](https://mail.google.com/mail/u/0/#drafts/r-3514461811725252730)
+
+2. **Recursion Pharma** - Senior ML Engineer | Remote | $150-200K+
+   → [Draft](https://mail.google.com/mail/u/0/#drafts/r4086341558965831106)
+
+3. **Synthego** - ML Platform Engineer | CA/Remote | $140-190K
+   → [Draft](https://mail.google.com/mail/u/0/#drafts/r4660353214126108764)
+
+---
+
+**This Week:**
+4. Samsara ($206-242K, Edge AI)
+5. Ginkgo (Boulder, SynBio, $85-120K)
+6. PwC Denver (Manager, $99-232K)
+
+**Backup:**
+7. CU Boulder Research Engineer
+8. Catalyst/Serica Bioprocess
+
+---
+
+**Today's Search:** Job boards limited (Indeed blocked, LinkedIn no matches). No NEW high-signal roles beyond April 28 pipeline. Ecosystem monitoring active for Asimov, Manus Bio, others.
+
+**Next Action:** Review & send Tier 1 → Monitor responses (expect 3-7 days)
+
+**Full Details:** `/data/.openclaw/workspace/memory/job-search/NEXT_ACTION_FOR_BRANDON.md`
+
+---
+
+STATUS DELIVERY METHOD: 
+- File: NEXT_ACTION_FOR_BRANDON.md (primary - human-readable checklist)
+- Files: applications.md, job-hunter-report-2026-04-29.md (detailed logs)
+- Message attempt: Requires Telegram account/chat ID configuration
+
+NOTE: Telegram notification via openclaw message tool requires proper accountId or chatId. 
+Contact admin to enable: `message action=send target=[TELEGRAM_ACCOUNT_ID] message="..."`
