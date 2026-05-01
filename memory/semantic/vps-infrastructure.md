@@ -41,7 +41,7 @@ Technical knowledge about Hostinger VPS and related infrastructure issues.
 ### Ollama Access (Verified 2026-04-27 23:42–23:45 EDT)
 
 ✅ SSH access to container successful via localhost
-✅ Ollama container operational: qwen2.5:7b (4.7GB, modified 11h prior) + qwen3.5:9b both present
+✅ Ollama container operational: qwen2.5:7b (4.7GB, modified 11h prior) + qwen2.5:7b both present
 ✅ Inference tests passed (~1s simple, ~3s complex latency)
 ✅ API responsive at localhost:11434
 

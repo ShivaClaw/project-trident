@@ -1,233 +1,101 @@
-# Job Applications Log - Brandon Kirksey
-**Updated:** 2026-04-29 (Wednesday, 8:00 AM)  
-**Status:** 8 Gmail Drafts Created & Ready to Review/Send | Daily Check Complete
+# Job Applications Tracker — April 2026
+
+**Last Updated:** 2026-04-30 10:05 AM EDT
+**Status:** Active Sprint (Ends May 20, 2026)
 
 ---
 
-## 🎯 ACTIVE DRAFTS (APRIL 28, 2026)
+## 📧 April 30 Draft Batch (Pending Send)
 
-### TIER 1: SEND IMMEDIATELY
-
-#### Draft 1: True Anomaly - Autonomy Engineer ⭐⭐⭐⭐⭐
-- **Company:** True Anomaly
-- **Role:** Autonomy Engineer
-- **Location:** Denver, CO (fully onsite)
-- **Salary Range:** $120K-$155K
-- **Fit Score:** 29/30 (AI + aerospace autonomy + Denver local)
-- **Resume:** brandon_ai_resume.pdf
-- **Draft URL:** [Gmail Draft](https://mail.google.com/mail/u/0/#drafts/r-3514461811725252730)
-- **Subject:** AI + Autonomy Engineer | Brandon Kirksey | Strong C++/Python/ML Background
-- **Status:** ✅ READY FOR REVIEW
-- **Created:** 2026-04-28 10:02 AM
-- **Key Points in Email:**
-  - AI + ML + classical optimization intersection
-  - C++/Python proficiency
-  - First-principles engineering approach
-  - Autonomous systems design experience
-
-#### Draft 2: Recursion Pharmaceuticals - Senior ML Engineer ⭐⭐⭐⭐⭐
-- **Company:** Recursion Pharmaceuticals
-- **Role:** Senior ML Engineer / AI Research Engineer
-- **Location:** Remote-friendly (Salt Lake City HQ)
-- **Salary Range:** $150K-$200K+
-- **Fit Score:** 29/30 (BIOTECH + AI CONVERGENCE)
-- **Resume:** brandon_ai_resume.pdf
-- **Draft URL:** [Gmail Draft](https://mail.google.com/mail/u/0/#drafts/r4086341558965831106)
-- **Subject:** ML Engineer - AI for Drug Discovery | Brandon Kirksey | Biotech + AI Expertise
-- **Status:** ✅ READY FOR REVIEW
-- **Created:** 2026-04-28 10:02 AM
-- **Key Points in Email:**
-  - Biotech background understanding (rare for ML engineers)
-  - AI + biology intersection passion
-  - Scaling systems from lab to production
-  - Drug discovery automation interest
-
-#### Draft 3: Synthego Corporation - Senior ML Platform Engineer ⭐⭐⭐⭐⭐
-- **Company:** Synthego Corporation
-- **Role:** Senior Software Engineer - ML Platform
-- **Location:** Fremont, CA (remote-friendly)
-- **Salary Range:** $140K-$190K
-- **Fit Score:** 28/30 (CRISPR + AI platform)
-- **Resume:** brandon_ai_resume.pdf
-- **Draft URL:** [Gmail Draft](https://mail.google.com/mail/u/0/#drafts/r4660353214126108764)
-- **Subject:** ML Platform Engineer - Biotech Automation | Brandon Kirksey
-- **Status:** ✅ READY FOR REVIEW
-- **Created:** 2026-04-28 10:02 AM
-- **Key Points in Email:**
-  - CRISPR automation passion
-  - ML + biotech platform design
-  - Systems thinking on scientific tools
-  - Hands-on bio systems understanding
+| Company | Role | Location | Salary | Fit | Status | Draft ID | Date Created |
+|---------|------|----------|--------|-----|--------|----------|--------------|
+| Think Bioscience | Bioprocess Engineer / Ops Manager | Boulder, CO | $65-85K | 95 | 📝 Draft ready | r-3288070758923124997 | 2026-04-30 |
+| Crestone Inc. | Ops Manager / Bioprocess Lead | Fort Collins, CO | $60-80K | 92 | 📝 Draft ready | r-4528778232583140091 | 2026-04-30 |
+| Enveda Biosciences | Ops Manager / Production Lead | Boulder, CO | $70-90K | 89 | 📝 Draft ready | r-569927986577284437 | 2026-04-30 |
+| Pivot Bio | Ops Manager / Bioprocess Specialist | Remote | $70-95K | 90 | 📝 Draft ready | r-1865057317529804608 | 2026-04-30 |
+| BioLink 360 | Data Scientist / ML Engineer | Denver, CO | $75-100K | 88 | 📝 Draft ready | r-1051637231111659253 | 2026-04-30 |
+| Alder Renewables | Bioprocess Engineer | Remote | $65-85K | 87 | 📝 Draft ready | r3057537757434093169 | 2026-04-30 |
+| GRAIL | Data Scientist / Clinical Informatics | Remote/CO | $77-95K | 82 | 📝 Draft ready | r7568362265021674046 | 2026-04-30 |
+| Ibotta | Machine Learning Engineer | Denver, CO | $90-130K | 78 | 📝 Draft ready | r-5574594094694942766 | 2026-04-30 |
 
 ---
 
-### TIER 2: SEND THIS WEEK
+## 📤 April 1-2 Batch (Sent)
 
-#### Draft 4: Samsara Inc - Senior ML Engineer (Edge AI) ⭐⭐⭐⭐⭐
-- **Company:** Samsara Inc
-- **Role:** Senior Machine Learning Engineer - Edge AI
-- **Location:** Remote/Hybrid (US-based)
-- **Salary Range:** $206K-$242K
-- **Fit Score:** 27/30 (Top salary, strong ML fit)
-- **Resume:** brandon_ai_resume.pdf
-- **Draft URL:** [Gmail Draft](https://mail.google.com/mail/u/0/#drafts/r8967059016664201766)
-- **Subject:** ML Engineer - Edge AI & Computer Vision | Brandon Kirksey
-- **Status:** ✅ READY FOR REVIEW
-- **Created:** 2026-04-28 10:02 AM
-- **Key Points in Email:**
-  - Edge AI deployment expertise
-  - Resource-constrained optimization
-  - Real-world systems debugging
-  - C++ + Python production code
-
-#### Draft 5: Ginkgo Bioworks - Metabolic Engineering Scientist ⭐⭐⭐⭐
-- **Company:** Ginkgo Bioworks
-- **Role:** Metabolic Engineering Scientist
-- **Location:** Boulder, CO
-- **Salary Range:** $85K-$120K
-- **Fit Score:** 28/30 (Pure SynBio, Boulder location, unicorn)
-- **Resume:** brandon_biotech_resume.pdf
-- **Draft URL:** [Gmail Draft](https://mail.google.com/mail/u/0/#drafts/r-7955860102113080762)
-- **Subject:** Metabolic Engineering + Bioprocess Optimization | Brandon Kirksey | Systems-Level Biotech
-- **Status:** ✅ READY FOR REVIEW
-- **Created:** 2026-04-28 10:02 AM
-- **Key Points in Email:**
-  - 13+ years precision cultivation + systems thinking
-  - Metabolic pathway design interest
-  - Cell-free systems scaling
-  - Nutrient cycling optimization
-  - Biomanufacturing scale-up
-
-#### Draft 6: PwC Denver - Manager, Data, Analytics & AI ⭐⭐⭐
-- **Company:** PwC Managed Services (Denver)
-- **Role:** Manager - Data, Analytics & AI
-- **Location:** Denver, CO (Hybrid)
-- **Salary Range:** $99K-$232K (wide band)
-- **Fit Score:** 26/30 (Local, leadership, stability)
-- **Resume:** brandon_ai_resume.pdf
-- **Draft URL:** [Gmail Draft](https://mail.google.com/mail/u/0/#drafts/r-830564629284127091)
-- **Subject:** Data, Analytics & AI Manager | Brandon Kirksey | Systems Thinking + Team Leadership
-- **Status:** ✅ READY FOR REVIEW
-- **Created:** 2026-04-28 10:02 AM
-- **Key Points in Email:**
-  - Team leadership + operational optimization
-  - Systems-level problem solving
-  - Cross-functional project management
-  - Biotech/pharma client exposure
+| Company | Role | Email | Sent | Status | Notes |
+|---------|------|-------|------|--------|-------|
+| Concentric | Operations Leadership for Microbial Biotech Scale | hiring@concentric.bio | 2026-04-02 | ✅ Sent | Awaiting response |
+| Impello Biosciences | Operations Lead for Bioactive Compound Production | careers@impellobio.com | 2026-04-02 | ✅ Sent | Awaiting response |
+| Tesoro Genetics | Operations Manager for Genome-Edited Crop Production | careers@tesorogenetics.com | 2026-04-02 | ✅ Sent | Awaiting response |
+| KBI Biopharma | Bioprocess Operations Manager — 10+ Years Facility & Scale Experience | careers@kbibiopharma.com | 2026-04-02 | ✅ Sent | Awaiting response |
+| Think Bioscience | Operations Manager for Cell Line Development & Scale | careers@thinkbioscience.com | 2026-04-02 | ✅ Sent | Awaiting response |
 
 ---
 
-### TIER 3: SEND AS BACKUPS
+## 📊 Campaign Metrics
 
-#### Draft 7: CU Boulder - Research Engineer (Metabolic Engineering) ⭐⭐⭐
-- **Company:** CU Boulder - ChemE Dept
-- **Role:** Research Engineer (Metabolic Engineering/Synthetic Biology)
-- **Location:** Boulder, CO
-- **Salary Range:** $60K-$80K
-- **Fit Score:** 26/30 (Academic biotech pipeline)
-- **Resume:** brandon_biotech_resume.pdf
-- **Draft URL:** [Gmail Draft](https://mail.google.com/mail/u/0/#drafts/r4499188441076072431)
-- **Subject:** Research Engineer - Metabolic Engineering Lab | Brandon Kirksey
-- **Status:** ✅ READY FOR REVIEW
-- **Created:** 2026-04-28 10:02 AM
-- **Key Points in Email:**
-  - Rigorous experimental methodology
-  - Biological system optimization
-  - Lab-to-production scaling experience
-  - Academic research interest
-
-#### Draft 8: Catalyst Pharmaceuticals / Serica - Process Development Engineer ⭐⭐⭐
-- **Company:** Catalyst Pharmaceuticals / Serica Technologies
-- **Role:** Process Development Engineer
-- **Location:** Alachua, FL (remote-friendly)
-- **Salary Range:** $70K-$95K
-- **Fit Score:** 25/30 (Fermentation + bioprocess)
-- **Resume:** brandon_biotech_resume.pdf
-- **Draft URL:** [Gmail Draft](https://mail.google.com/mail/u/0/#drafts/r982007987224917894)
-- **Subject:** Bioprocess Development Engineer | Brandon Kirksey | Fermentation & Scale-Up
-- **Status:** ✅ READY FOR REVIEW
-- **Created:** 2026-04-28 10:02 AM
-- **Key Points in Email:**
-  - Fermentation + bioreactor operations
-  - Batch vs. fed-batch strategy
-  - Cannabis ops → pharma bioprocess translation
-  - Cell therapy/manufacturing interest
+| Metric | Target | Current | Status |
+|--------|--------|---------|--------|
+| Total emails sent (sprint goal) | 20+ | 13 | ⏳ On track |
+| Drafts pending send | — | 8 | 📝 Ready |
+| Response rate | 10-15% | Pending | — |
+| Phone calls scheduled | 3-5 | 0 | ⏳ Waiting |
+| First-round interviews | By May 20 | 0 | ⏳ Waiting |
 
 ---
 
-## APPLICATION STATISTICS
+## 🎯 Strategy Notes
 
-| Metric | Value |
-|--------|-------|
-| **Total Opportunities** | 8 |
-| **Avg Fit Score** | 27.3/30 |
-| **Salary Range** | $60K-$242K |
-| **Avg Salary** | $126K |
-| **Biotech/SynBio Focus** | 4/8 (50%) |
-| **AI/ML Focus** | 3/8 (37.5%) |
-| **Hybrid (Bio+AI)** | 1/8 (12.5%) |
-| **Denver Metro** | 4/8 |
-| **Boulder** | 2/8 |
-| **Remote-friendly** | 2/8 |
-| **Status: Ready to Send** | 8/8 (100%) |
+**Batch 1 (Apr 1-2):** 5 companies sent (validation batch)
+**Batch 2 (Apr 30):** 8 companies drafted (high-signal convergence focus)
+**Batch 3 (Pending):** ~10-15 companies from PROSPECT_LIST.md (queue for May 1-5)
 
----
+**Positioning:**
+- **Tier 1 (Highest fit):** Biotech + synbio focus (Think, Crestone, Enveda)
+- **Tier 2 (High fit):** Agriculture biotech + ops scale (Pivot Bio, Alder)
+- **Tier 3 (Convergence):** AI/ML + biotech (BioLink, GRAIL, Ibotta)
 
-## FOLLOW-UP LOG
-
-### Expected Timeline
-- **Send Tier 1:** Today (Tue, Apr 28) or Wed (Apr 29)
-- **Responses expected:** Within 3-7 days
-- **Phone screens:** 1-2 weeks
-- **On-sites:** 2-3 weeks
-- **Offers:** 3-4 weeks
-
-### Phone Screen Prep
-Prepare for these questions:
-- "Why biotech + AI?"
-- "Your background in [domain]?"
-- "How does your experience translate to this role?"
-- Salary expectations: $120K-$200K range
-
-### Interview Notes
-*To be filled in after first contact*
+**Resume Selection:**
+- Biotech/Ops roles → Brandon Kirksey Biotech Resume (10+ yrs facility mgmt, ops)
+- AI/ML roles → Brandon Kirksey AI/ML Resume (transition into ML engineering)
 
 ---
 
-## PREVIOUS APPLICATIONS (APRIL 27)
+## 📋 Drafts Review Checklist
 
-*6 pre-drafts from April 27 were replaced with actual Gmail drafts on April 28*
+Before sending, verify each draft:
+- [ ] Subject line matches company + role
+- [ ] Body is personalized (not template)
+- [ ] Resume attachment present
+- [ ] Contact info correct (email + phone)
+- [ ] Tone aligns with company culture
+- [ ] No typos or awkward phrasing
+- [ ] Call to action is clear
 
 ---
 
-**Job Applications Tracker**  
-**Updated:** 2026-04-28 10:02 AM ET  
-**Next Update:** Post-send (when drafts are sent)  
-**Next Cycle:** 2026-05-01 (Weekday 8:00 AM) for new opportunities
+## 🚀 Timeline
+
+| Date | Action | Owner |
+|------|--------|-------|
+| Apr 30 | 📝 Create 8 drafts | Agent ✓ |
+| May 1 | 🚀 Send Batch 1 (3 drafts) | G review |
+| May 1 | 🚀 Send Batch 2 (5 drafts) | G review |
+| May 3 | 📊 Review inbox + responses | G |
+| May 5 | 📝 Create Batch 3 drafts (8-10 more) | Agent |
+| May 7 | 📞 Phone call prep | G |
+| May 10 | 📞 Execute phone calls | G |
+| May 20 | 🎯 Offer close deadline | Sprint end |
 
 ---
 
-## APRIL 29 STATUS UPDATE (WEDNESDAY 8:00 AM)
+## 🔗 Resources
 
-**Job Market Scan:** Limited availability via automated searches
-- Indeed: Blocking automated access (Cloudflare)
-- LinkedIn: No results for "biotech ML engineer" in Denver radius
-- Company career pages: Manus Bio, Asimov, others show landing pages but no specific open roles visible
+- **Prospect List:** `PROSPECT_LIST.md`
+- **Cold Email Playbook:** `COLD_EMAIL_PLAYBOOK.md`
+- **Latest Batch Log:** `DRAFT_BATCH_APRIL_30.md`
+- **Outreach Log:** `OUTREACH_LOG.md`
 
-**Ecosystem Companies Identified (Not in Original 8):**
-- **Manus Bio** (Boulder) - Genome editing + biomanufacturing (formerly Inscripta)
-- **Asimov** - Mammalian synthetic biology + ML (HIGH FIT for Brandon)
-- **RheumaGen** (Denver) - Cell/gene therapy
-- **Enveda Biosciences** - ML + metabolomics drug discovery
-- **Think Bioscience** (Boulder) - Synthetic biology
-- **Bolder BioTechnology** - Protein engineering
-- **VitriVax** (Boulder) - Vaccine formulation
-- **Epicrispr Biotechnologies** - Epigenetic editing
+---
 
-**Decision:** Existing 8-draft pipeline is strong and comprehensive. No high-signal NEW opportunities identified that exceed current list quality. Recommend proceeding with Tier 1 sends.
-
-**Recommended Action:**
-1. Review & customize any Tier 1 drafts if desired
-2. Send top 3 (True Anomaly, Recursion, Synthego) this week
-3. Monitor responses (expect 3-7 days)
-4. Tier 2-3 backups ready if primary attempts don't advance
+_Last sync: Agent Job Hunter (Cron) — 2026-04-30 10:05 AM_

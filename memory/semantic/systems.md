@@ -24,10 +24,13 @@ Technical knowledge about tools, infrastructure, and systems I interact with.
 
 ## VPS (Hostinger)
 
-**Environment:** Docker container on Hostinger VPS
-**OS:** Linux 6.8.0-106-generic x64
+**Environment:** Docker container on Hostinger VPS (72.60.119.23)
+**OS:** Linux 6.8.0-110-generic x64 (confirmed 2026-04-30)
 **Resources:** ~14GB available RAM, ~178GB free disk
 **Homebrew:** /home/linuxbrew/.linuxbrew
+**Running containers (2026-04-30 13:20 EDT):** OpenClaw gateway, Traefik, Qdrant, FalkorDB, Ollama
+**Storage:** Docker volumes persistent under /home/boss/odin/
+**Networks:** Multiple bridge networks (trident-network, traefik_proxy)
 
 ---
 
@@ -41,10 +44,13 @@ Technical knowledge about tools, infrastructure, and systems I interact with.
 
 ## Ollama (Local Inference)
 
-**Status:** ✅ OPERATIONAL (as of 2026-04-27 02:05 EDT)
+**Status:** ✅ OPERATIONAL (as of 2026-04-27 02:05 EDT; config updated 2026-04-30 14:25 EDT)
 **Primary Model:** Qwen 2.5 7B (4.7GB, Q4_K_M quantization)
-**Endpoint:** http://ollama:11434 on root_trident-network (172.21.0.2)
-**Performance:** ~3–4s per request; no timeouts observed
+**Deprecated Model:** ~~Qwen 3.5 9B~~ [deleted 2026-04-30 14:25 EDT]
+**Endpoint:** http://72.60.119.23:11434 (VPS IP, host_network mode) [updated 2026-04-30]
+**Prior endpoint:** http://ollama:11434 on root_trident-network (172.21.0.2)
+**Fallback chain (2026-04-30 14:25):** Qwen 2.5 7B → Claude Haiku 4.5 → Gemini 2.5 Flash → Grok 3 Mini Fast
+**Performance:** ~3–4s per request; no timeouts observed; CPU-only, expect queued qwen2.5:7b (primary model only)
 **Fallback chain:** Qwen 2.5 7B → Claude Haiku 4.5 → Gemini 2.5 Flash → Grok 3 Mini Fast
 
 **Resolution history:**
@@ -82,11 +88,12 @@ GOG_KEYRING_PASSWORD=$(cat /data/.openclaw/.gog-keyring-password) GOG_ACCOUNT=br
 ```
 Keyring file: /data/.openclaw/.gog-keyring-password
 
-**Tool blocker:** himalaya IMAP credential invalid (2026-04-27 detected)
+**Tool blocker:** himalaya IMAP credential invalid (2026-04-27 detected; persists 2026-04-30)
 - OAuth setup completed 2026-04-12, but token/config mismatch in password-store
 - Error: "Invalid credentials" on IMAP connect
 - Status: Blocks automated email monitoring; manual browser checks viable
 - Workaround: Use `gog` or manual Gmail access via browser
+- Better approach pending: SSH key-based auth to VPS (currently using password auth via sshpass)
 
 **Email delivery via Maton API (2026-04-28 attempted):**
 - Attempted cowo-v1.0.user.js delivery via Maton API gateway (/google-mail/ endpoint)
@@ -94,3 +101,12 @@ Keyring file: /data/.openclaw/.gog-keyring-password
 - Response: 320,396 bytes received; status code/error handling unclear
 - Status: **UNCONFIRMED** — verify delivery to brandongkirksey@gmail.com inbox
 - Fallback: Use `gog` CLI for manual delivery if Maton API silent failure confirmed
+
+## SSH Authentication (VPS)
+
+**Current method:** Password authentication via sshpass (2026-04-30 operational)
+- Command pattern: `sshpass -p '<password>' ssh ...`
+- Password stored in .env.secret (git-ignored, but plaintext risk)
+- Reason: ED25519 key authentication fails on VPS external IP (72.60.119.23) — likely Docker network isolation or sshd config mismatch
+- Performance: Reliable, <1s connect time
+- **Better approach:** Add SSH key to VPS manually after container deployment stabilizes [deferred 2026-04-30]

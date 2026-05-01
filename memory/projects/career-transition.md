@@ -79,16 +79,16 @@ Get G employed before May 20, 2026 (Outlier AI shutdown). Target: higher-leverag
 
 ---
 
-## Current state (as of April 28 03:40 UTC)
+## Current state (as of April 30 16:49 UTC)
 - Sectors researched and prioritized
 - Cold outreach template drafted
 - Prospect list built (40+ companies)
 - Blocking items resolved March 27; 58-day cold outreach sprint **NOT YET INITIATED**
-- **🔴 ACTIVE BLOCKER (Critical):** Job Search Batch 2 (15 companies) staged but cold outreach not executed. Root cause: Unresolved strategic questions blocking launch.
-- **🔴 JOB SEARCH BATCH 4:** **10+ DAYS OVERDUE** (due 2026-04-22, now 2026-04-28). Status unclear; may be superseded by Batch 2 focus. **ESCALATE on next G input.**
-- **⚠️ Tool blocker:** himalaya credential issue persisting (detected Apr 27 heartbeat, confirmed Apr 28). OAuth setup completed Apr 12, but himalaya IMAP returning "Invalid credentials" error since then. Root cause: Config/token mismatch in password-store. Manual email checks via browser remain viable. [updated 2026-04-28]
-- **Timeline remaining:** 22 days to May 20, 2026 deadline
-- **Heartbeat observation:** Recurring pattern detected — multiple triage cycles show identical blocking conditions without escalation. 4 consecutive cycles (Apr 27, 21:49–22:49 EDT) + current state suggest systemic blocker requiring explicit G decision, not iterative re-analysis.
+- **🔴 ACTIVE BLOCKER (Critical):** Job Search Batch 2 (15 companies) staged but cold outreach not executed. Root cause: **THREE UNRESOLVED STRATEGIC DECISIONS BLOCKING LAUNCH.** Heartbeat protocol has flagged identical blocking conditions 8+ consecutive cycles (Apr 27–30) without user decision. **This is a decision point, not an analytical blocker.**
+- **🔴 JOB SEARCH BATCH 4:** **8+ DAYS OVERDUE** (due 2026-04-22, now 2026-04-30). Status unclear; likely superseded by Batch 2 but no formal decision made. **AWAITING EXPLICIT G DECISION on closure/deprioritization.**
+- **⚠️ Tool blocker:** himalaya credential issue persisting (detected Apr 27, confirmed through Apr 30). OAuth setup completed Apr 12, but himalaya IMAP returning "Invalid credentials" error. Root cause: Config/token mismatch in password-store. Manual email checks via browser remain viable. **Non-critical for cold outreach execution.** [updated 2026-04-30]
+- **Timeline remaining:** 20 days to May 20, 2026 deadline
+- **Heartbeat observation:** Systemic blocker identified — 8+ consecutive triage cycles (Apr 27–30) detected identical decision-blocking conditions. Protocol functioning correctly; issue is that **iterative re-analysis cannot resolve decision-blocking items.** Requires explicit user decision to unblock. Escalation mechanism ACTIVE.
 
 ## Next steps
 - Begin cold outreach to top 5–7 Tier 1 companies immediately.
