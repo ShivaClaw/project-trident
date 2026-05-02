@@ -52,3 +52,19 @@
 - Free-tier OR models (step-3.5-flash:free) go rate-limited without warning — unreliable as last resort
 - gpt-5.2 requires `max_completion_tokens` not `max_tokens`
 - **himalaya IMAP credential failure (Apr 27–30):** OAuth setup completed Apr 12, but himalaya returning "Invalid credentials" on IMAP auth attempts. Persisting through Apr 30. Likely config/token mismatch rather than OAuth flow failure. Workaround: manual email checks via browser; use `gog` CLI as fallback. [updated 2026-04-30]
+
+## OpenClaw Dual-Instance Issue (2026-05-02)
+- **Problem:** Two OpenClaw processes running simultaneously on srv1489775 (Hostinger VPS)
+- **Detected:** 2026-05-02T06:10 EDT via `ps aux | grep -i openclaw`
+- **Impact:** Configuration work in progress; dual instances interfering with system state
+- **Action required:** Identify and kill the stale/unintended instance
+- **Lesson:** Dual installations can coexist and cause confusion; explicit binary management critical
+
+## OpenClaw Config Protection (2026-05-02T07:54 EDT)
+- **Discovery:** The `models.providers` config block in `/data/.openclaw/openclaw.json` is protected
+- **Attempt:** G tried to add Ollama provider configuration via `edit` and `config.patch` tools
+- **Result:** All edits failed silently or were rejected; config.patch reports success but changes don't persist
+- **Root cause:** OpenClaw prevents modifications to protected config blocks that affect model routing layer
+- **Workaround:** Protected fields cannot be edited via tool API; requires different approach (e.g., manual file edit with elevated permissions, or config reload from different source)
+- **Lesson:** Some config fields are immutable via standard tools; check OpenClaw docs or source for protected fields before attempting edits
+- **Status:** Ollama service itself is running and healthy (confirmed via `ollama list` on host)

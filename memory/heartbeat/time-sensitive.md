@@ -1,11 +1,11 @@
 # Time-Sensitive Tracking
 
-**Last updated:** 2026-04-27T14:10:01Z (Cycle #242)
+**Last updated:** 2026-05-01T11:08:44Z (Cycle #497 — Heartbeat-Integrated L0)
 
 ## Critical (OVERDUE)
 
 - **Job Search Batch 4**
-  - Due: 2026-04-22 (8 days overdue)
+  - Due: 2026-04-22 (9 days overdue)
   - Status: 🔴 **BLOCKED** — awaiting G response/action
   - Action: **ESCALATE IMMEDIATELY** when Shiva receives new user input
   - Notes: Batch 5 scheduling blocked awaiting G input; both batches stalled
@@ -27,4 +27,4 @@
 
 - **Main session:** ACTIVE (continuous since 2026-04-27 04:06 EDT)
 - **Cron heartbeat:** Continuing at 15-min interval
-- **Last cycle:** #242 (2026-04-27T14:10:01Z) — 0 new signals, all systems nominal
+- **Last cycle:** #497 (2026-05-01T11:08:44Z) — 0 new signals, all systems nominal

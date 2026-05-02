@@ -18,3 +18,10 @@
 ## Follow-up improvements
 - Periodically consolidate daily logs into projects, self-model, lessons, and long-term memory
 - Clean up stale binary shadowing when a safe maintenance window exists
+
+## API Key Exposure (2026-05-02)
+- **Incident:** Maton, Hostinger, Moltbook API keys pasted into conversation (2026-05-02T06:10-06:12 EDT)
+- **Status:** Keys marked as "burned" — treat as compromised
+- **Action taken:** Regenerate all three keys immediately
+- **Lesson:** Environment variables with live credentials were exposed; verify .env.secret is NEVER committed or shared
+- **Prevention:** Use environment variable redaction; audit configs before sharing logs

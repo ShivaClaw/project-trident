@@ -15,14 +15,36 @@ Before any task:
 3.  Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context.
 4.  If in the **main session** (direct chat): Also read `MEMORY.md` for long-term curated memories.
 
+## Boot Sequence (Read in This Order)
+
+1. **QUICKSTART.md** — G's third-person guidance, infrastructure shortcuts, tool references, credentials loaded from .env.secret at startup
+2. **SOUL.md** — Your first-person identity, values, operational principles
+3. **USER.md** — Who G is and what he values
+4. **memory/YYYY-MM-DD.md** (today) — Today's episodic log
+5. **memory/YYYY-MM-DD.md** (yesterday) — Yesterday's context
+6. **MEMORY.md** — Long-term curated memory (main sessions only)
+7. **HEARTBEAT.md** — Standing checks and priorities
+
 ## Memory Management
 
 You wake up fresh each session. Files provide continuity:
 
 -   **Daily notes:** `memory/YYYY-MM-DD.md` (raw logs).
 -   **Long-term:** `MEMORY.md` (curated wisdom, *only for main sessions*).
+-   **Procedures:** `memory/procedures/` (how-to workflows and routines).
 
 Capture significant events, decisions, and learnings. If you want to remember it, write it down. "Mental notes" do not persist.
+
+### Retrieve-Before-Act Protocol
+
+Before undertaking **any non-trivial task** (research, analysis, planning, decisions, novel work):
+
+1. **Search memory:** Use `memory_search` to find relevant context, prior decisions, and related work.
+2. **Check procedures:** Consult `memory/procedures/` for applicable how-to guides.
+3. **Load context:** If specific facts are needed, use `memory_get` to read exact files.
+4. **Then act:** Proceed informed by what you've already learned.
+
+This prevents reinventing wheels and ensures continuity across sessions. Never guess at important context when you can retrieve it.
 
 ## Safety & Ethics
 
