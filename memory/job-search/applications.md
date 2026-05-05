@@ -1,8 +1,8 @@
 # Job Search Applications & Outreach Tracker
 
 **Last Updated:** 2026-05-01 14:00 UTC  
-**Status:** Batch 2 composed, ready for sending  
-**Deadline:** May 20, 2026 (19 days remaining)
+**Status:** Batch 2 — 8 Gmail drafts created ✅ 2026-05-04 20:33 UTC  
+**Deadline:** May 20, 2026 (16 days remaining)
 
 ---
 
@@ -18,34 +18,32 @@
 
 ---
 
-## BATCH 2 — Composed May 1, Ready for Sending 🔴 ACTION REQUIRED
+## BATCH 2 — 8 Gmail Drafts Created ✅ 2026-05-04 20:33 UTC
 
-**Status:** 8 personalized emails drafted. Awaiting sending (Gmail draft creation or manual send).
+**Status:** Ready for review and sending from Gmail.
 
-### Tier 1: Agriculture Biotech (2 companies)
+### Tier 1: Agriculture Biotech (1 company)
 
-| Company | Role | Email | Subject | Composed | Status | Fit Score | Notes |
-|---------|------|-------|---------|----------|--------|-----------|-------|
-| Pivot Bio | Operations Manager | careers@pivotbio.com | Operations Leadership for Microbial-Based Agriculture Scale | 2026-05-01 | 📋 Ready | 9/10 | Microbial nitrogen solutions; remote-friendly |
-| Greeneye Technology | Operations/Technical Support | hiring@greeneyetech.com | Operations Leadership for Precision Agriculture Tech Scale | 2026-05-01 | 📋 Ready | 7/10 | Precision spraying; remote |
+| Company | Role | Email | Subject | Created | Status | Draft Link | Fit Score |
+|---------|------|-------|---------|---------|--------|-----------|----------|
+| Pivot Bio | Operations Manager | careers@pivotbio.com | Operations Leadership for Microbial-Based Agriculture Scale | 2026-05-04 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r4936478342677879093) | 9/10 |
 
-### Tier 2: Alternative Protein (3 companies)
+### Tier 2: Alternative Protein (2 companies)
 
-| Company | Role | Email | Subject | Composed | Status | Fit Score | Notes |
-|---------|------|-------|---------|----------|--------|-----------|-------|
-| Nature's Fynd | Bioprocess Operations | careers@naturesfynd.com | Bioprocess Operations Lead — Fermentation Scale Expertise | 2026-05-01 | 📋 Ready | 9/10 | Fermentation-based protein; mission-aligned |
-| EVERY™ | Process Engineer/Operations | careers@every.co | Process Engineering & Operations for Precision Fermentation Scale | 2026-05-01 | 📋 Ready | 8/10 | Precision fermentation proteins; remote |
-| Vivici | Fermentation Lead | careers@vivici.com | Bioprocess Operations for Whey Fermentation Scale | 2026-05-01 | 📋 Ready | 8/10 | Whey via fermentation |
+| Company | Role | Email | Subject | Created | Status | Draft Link | Fit Score |
+|---------|------|-------|---------|---------|--------|-----------|----------|
+| Nature's Fynd | Bioprocess Operations | careers@naturesfynd.com | Bioprocess Operations Lead — Fermentation Scale Expertise | 2026-05-04 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r-2293827671528534036) | 9/10 |
+| EVERY™ | Process Engineer/Operations | careers@every.co | Process Engineering & Operations for Precision Fermentation Scale | 2026-05-04 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r9021560673693715152) | 8/10 |
 
-### Tier 4: Synthetic Biology / Biomanufacturing (3 companies)
+### Tier 3: Synthetic Biology / Biomanufacturing (5 companies)
 
-| Company | Role | Email | Subject | Composed | Status | Fit Score | Notes |
-|---------|------|-------|---------|----------|--------|-----------|-------|
-| Enveda Biosciences | Operations Manager | careers@envedabio.com | Operations Lead for Natural Product Biotech Manufacturing | 2026-05-01 | 📋 Ready | 9/10 | Boulder; AI+biotech convergence |
-| Umoja Biopharma | Manufacturing Operations | careers@umojabiopharma.com | Manufacturing Ops Lead — Facility & Process Scale Expertise | 2026-05-01 | 📋 Ready | 9/10 | Denver; cell therapy manufacturing |
-| Viridian Therapeutics | QA/Operations Manager | careers@viridiantherapeutics.com | Operations & Quality Leadership — Biotech Manufacturing Scale | 2026-05-01 | 📋 Ready | 8/10 | Denver; biopharma + manufacturing |
-| Corden Pharma Colorado | Process/Operations Engineer | careers@cordenpharma.com | Process Operations Leadership — Specialty Pharma Manufacturing | 2026-05-01 | 📋 Ready | 7/10 | Quaker City; specialty pharma |
-| LGM Pharma | Manufacturing Operations | careers@lgmpharma.com | Operations Leadership for Oral Solid Dose Manufacturing Expansion | 2026-05-01 | 📋 Ready | 7/10 | Colorado Springs; 2026 expansion |
+| Company | Role | Email | Subject | Created | Status | Draft Link | Fit Score |
+|---------|------|-------|---------|---------|--------|-----------|----------|
+| Enveda Biosciences | Operations Manager | careers@envedabio.com | Operations Lead for Natural Product Biotech Manufacturing | 2026-05-04 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r-2926813743250812606) | 9/10 |
+| Umoja Biopharma | Manufacturing Operations | careers@umojabiopharma.com | Manufacturing Ops Lead — Facility & Process Scale Expertise | 2026-05-04 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r-2418515356278693426) | 9/10 |
+| Viridian Therapeutics | QA/Operations Manager | careers@viridiantherapeutics.com | Operations & Quality Leadership — Biotech Manufacturing Scale | 2026-05-04 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r-8172585293747807276) | 8/10 |
+| Corden Pharma Colorado | Process/Operations Engineer | careers@cordenpharma.com | Process Operations Leadership — Specialty Pharma Manufacturing | 2026-05-04 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r7557645285573911275) | 7/10 |
+| LGM Pharma | Manufacturing Operations | careers@lgmpharma.com | Operations Leadership for Oral Solid Dose Manufacturing Expansion | 2026-05-04 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r3698617514352066107) | 7/10 |
 
 **Total Batch 2:** 8 companies, fit scores 7–9/10, all personalized emails ready.
 
@@ -197,14 +195,13 @@ Brandon Kirksey
 
 ## SENDING STATUS
 
-**🔴 CRITICAL ACTION REQUIRED:**
-- Batch 2 emails are composed and ready
-- **Options for sending:**
-  1. **Manual:** Copy/paste emails + send from Gmail directly (fastest)
-  2. **Automated:** Set MATON_API_KEY environment variable → Shiva will create Gmail drafts via API
-  3. **CLI:** Use `gog` (currently unavailable in environment)
+**✅ BATCH 2 COMPLETE:**
+- 8 Gmail drafts created via API (2026-05-04 20:33 UTC)
+- All drafts ready for review and sending from Gmail
+- **Next step:** Review drafts in Gmail and send when ready
 
-**Recommendation:** Manual send today (velocity matters; 19 days remaining)
+**Gmail Draft Links:**
+- All drafts visible at: https://mail.google.com/mail/u/0/#drafts
 
 ---
 
