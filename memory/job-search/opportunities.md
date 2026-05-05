@@ -11,7 +11,7 @@
 - **Growth:** Unicorn stage, global expansion, cutting-edge CRISPR/cell engineering
 - **URL:** https://www.ginkgobioworks.com/careers
 - **Fit Score:** 28/30 (domain + salary + growth + unique opportunity)
-- **Status:** DRAFT PENDING
+- **Status:** ✅ DRAFT CREATED (2026-05-05)
 
 ### 2. **Intrexon/Precigen (now Precigen Inc.)** - Denver Metro
 - **Role:** AI/ML Data Scientist (Biotech Applications)
@@ -22,7 +22,7 @@
 - **Growth:** NASDAQ-listed, GLP-1 + cell therapy focus
 - **URL:** https://www.precigen.com/careers
 - **Fit Score:** 27/30
-- **Status:** DRAFT PENDING
+- **Status:** ✅ DRAFT CREATED (2026-05-05)
 
 ### 3. **CU Boulder Biotech & Biochemical Engineering Lab**
 - **Role:** Research Engineer / Biomanufacturing Specialist
@@ -33,7 +33,7 @@
 - **Growth:** Leading university biotech program + startup pipeline
 - **URL:** https://www.colorado.edu/ecee/metabolic-engineering
 - **Fit Score:** 24/30 (lower salary but unique research opportunity)
-- **Status:** DRAFT PENDING
+- **Status:** ✅ DRAFT CREATED (2026-05-05)
 
 ### 4. **Vertical Farming / AgriTech - Local Denver Operations**
 - **Role:** Cultivation Systems Engineer / Operations Manager
@@ -44,7 +44,7 @@
 - **Growth:** Vertical farming explosive growth; automation + AI
 - **URL:** Various (local operators: AppHarvest, BrightFarms partner sites)
 - **Fit Score:** 25/30 (perfect domain match, less cutting-edge)
-- **Status:** DRAFT PENDING
+- **Status:** ✅ DRAFT CREATED (2026-05-05)
 
 ### 5. **Applied BioScience** - Fort Collins
 - **Role:** Fermentation Engineer / Bioreactor Operations
@@ -55,7 +55,7 @@
 - **Growth:** Growing fermentation provider for biotech ecosystem
 - **URL:** https://www.appliedbio.com/careers
 - **Fit Score:** 26/30
-- **Status:** DRAFT PENDING
+- **Status:** ✅ DRAFT CREATED (2026-05-05)
 
 ### 6. **Ananda Medicinals / Extraction Tech Startup** - Denver
 - **Role:** Process Engineer (Cannabis-to-Pharma Transition)
@@ -66,7 +66,7 @@
 - **Growth:** Cannabis→pharma pivot; high-margin opportunity
 - **URL:** (Private: networking required)
 - **Fit Score:** 24/30 (network-only, but perfect fit)
-- **Status:** DRAFT PENDING
+- **Status:** ✅ DRAFT CREATED (2026-05-05)
 
 ---
 

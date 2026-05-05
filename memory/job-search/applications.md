@@ -18,6 +18,45 @@
 
 ---
 
+## BATCH 3 — 6 Gmail Drafts Created ✅ 2026-05-05 10:05 UTC
+
+**Status:** Ready for review and sending from Gmail.
+
+### Tier 1: Synthetic Biology & Cell Engineering (2 companies)
+
+| Company | Role | Email | Subject | Created | Status | Draft Link | Fit Score |
+|---------|------|-------|---------|---------|--------|-----------|----------|
+| Ginkgo Bioworks | Metabolic Engineering Scientist | careers@ginkgobioworks.com | Metabolic Engineering Expertise — Brandon Kirksey \| Biotech Scale | 2026-05-05 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r-8487022571181052893) | 28/10 |
+| Precigen Inc. | AI/ML Data Scientist (Biotech) | careers@precigen.com | AI + Biotech Convergence — Brandon Kirksey \| Data Science for GLP-1/Cell Therapy | 2026-05-05 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r8940822763434253259) | 27/10 |
+
+### Tier 2: Fermentation & Biomanufacturing (1 company)
+
+| Company | Role | Email | Subject | Created | Status | Draft Link | Fit Score |
+|---------|------|-------|---------|---------|--------|-----------|----------|
+| Applied BioScience | Fermentation Engineer / Bioreactor Ops | careers@appliedbio.com | Fermentation Scale & Bioreactor Operations — Brandon Kirksey \| Manufacturing Excellence | 2026-05-05 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r-1604923797968373538) | 26/10 |
+
+### Tier 3: Horticulture & Vertical Farming (1 company)
+
+| Company | Role | Email | Subject | Created | Status | Draft Link | Fit Score |
+|---------|------|-------|---------|---------|--------|-----------|----------|
+| Vertical Farming / AgriTech | Cultivation Systems Engineer | info@verticalfarmcompany.com | Vertical Farming Operations & Automation — Brandon Kirksey \| 10+ Yrs Cultivation Expertise | 2026-05-05 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r-3728059249877043902) | 25/10 |
+
+### Tier 4: Academic & Research (1 company)
+
+| Company | Role | Email | Subject | Created | Status | Draft Link | Fit Score |
+|---------|------|-------|---------|---------|--------|-----------|----------|
+| CU Boulder Biotech Lab | Research Engineer / Biomanufacturing Specialist | biotech@colorado.edu | Metabolic Engineering & Biomanufacturing Research — Brandon Kirksey | 2026-05-05 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r7679735956236546345) | 24/10 |
+
+### Tier 5: Cannabis-to-Pharma Bridge (1 company)
+
+| Company | Role | Email | Subject | Created | Status | Draft Link | Fit Score |
+|---------|------|-------|---------|---------|--------|-----------|----------|
+| Ananda Medicinals | Process Engineer (Cannabis→Pharma) | careers@andandamedicinals.com | Cannabis → Pharma Bridge — Brandon Kirksey \| 10+ Yrs Cultivation + Biotech Vision | 2026-05-05 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r-1935957601339210063) | 24/10 |
+
+**Total Batch 3:** 6 companies, average fit 25.8/30, all personalized emails with resume attachments ready.
+
+---
+
 ## BATCH 2 — 8 Gmail Drafts Created ✅ 2026-05-04 20:33 UTC
 
 **Status:** Ready for review and sending from Gmail.
@@ -195,9 +234,10 @@ Brandon Kirksey
 
 ## SENDING STATUS
 
-**✅ BATCH 2 COMPLETE:**
-- 8 Gmail drafts created via API (2026-05-04 20:33 UTC)
+**✅ BATCH 3 COMPLETE:**
+- 6 Gmail drafts created via API (2026-05-05 10:05 UTC)
 - All drafts ready for review and sending from Gmail
+- **Cumulative totals:** 14 sent/drafted (5 Batch 1 + 8 Batch 2 + 6 Batch 3)
 - **Next step:** Review drafts in Gmail and send when ready
 
 **Gmail Draft Links:**
