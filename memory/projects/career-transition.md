@@ -79,12 +79,12 @@ Get G employed before May 20, 2026 (Outlier AI shutdown). Target: higher-leverag
 
 ---
 
-## Current state (as of May 2 03:26 UTC)
+## Current state (as of May 5 21:26 EDT)
 - Sectors researched and prioritized
 - Cold outreach template drafted
 - Prospect list built (40+ companies)
 - Blocking items resolved March 27
-- **🔴 BATCH 2 STATUS (UNEXECUTED):** 8 personalized emails composed (May 1, 2026), **NOT YET SENT** as of May 2 03:19 EDT.
+- **🔴 BATCH 2 STATUS (UNEXECUTED):** 8 personalized emails composed (May 1, 2026), **NOT YET SENT** as of May 5 21:26 EDT.
   - Companies: Pivot Bio, Nature's Fynd, Enveda, Umoja, Viridian, Corden, LGM, EVERY™
   - Fit scores: 7–9/10
   - Status: Full drafts logged to `memory/job-search/applications.md` (ready for immediate sending)
