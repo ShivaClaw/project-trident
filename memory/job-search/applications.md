@@ -232,16 +232,35 @@ Brandon Kirksey
 
 ---
 
+## BATCH 4 — 5 NEW High-Signal Opportunities (May 6, 2026)
+
+**Status:** Draft emails prepared, ready for Gmail creation.
+
+| # | Company | Role | Salary | Fit | Email | Subject |
+|---|---------|------|--------|-----|-------|----------|
+| 1 | Benchling | Software Engineer, Full Stack (Chemistry) | $173K-235K | 29/30 | careers@benchling.com | Biotech + Chemistry SaaS Platform Engineering |
+| 2 | Tempus AI | Medical Science Liaison | $120K-190K | 26/30 | careers@tempus.com | AI-Driven Genomics + MSL Bridge |
+| 3 | Bolder BioTech | Ph.D. Scientist / Research | $65K-95K | 27/30 | careers@bolderbio.com | Synthetic Biology Research |
+| 4 | IDT (Danaher) | Applications Scientist - SynBio | $75K-105K | 26/30 | careers@danaher.com | Synthetic Biology Technical Support |
+| 5 | August Schell | AI/ML Specialist | $90K-140K | 25/30 | careers@augustschell.com | AI/ML Engineering + Domain Expertise |
+
+**Total Batch 4:** 5 primary opportunities | **Average Fit:** 26.5/30
+
+---
+
 ## SENDING STATUS
 
 **✅ BATCH 3 COMPLETE:**
 - 6 Gmail drafts created via API (2026-05-05 10:05 UTC)
 - All drafts ready for review and sending from Gmail
-- **Cumulative totals:** 14 sent/drafted (5 Batch 1 + 8 Batch 2 + 6 Batch 3)
-- **Next step:** Review drafts in Gmail and send when ready
+
+**✅ BATCH 4 READY (May 6):**
+- 5 personalized email drafts prepared
+- **Cumulative totals:** 24 opportunities (5 Batch 1 + 8 Batch 2 + 6 Batch 3 + 5 Batch 4)
+- **Next step:** Create Gmail drafts and send when ready
 
 **Gmail Draft Links:**
-- All drafts visible at: https://mail.google.com/mail/u/0/#drafts
+- Batch 1-3: https://mail.google.com/mail/u/0/#drafts
 
 ---
 
