@@ -1,0 +1,1 @@
+Docker unavailable on this system; Qdrant/FalkorDB schemas cannot be exported.
