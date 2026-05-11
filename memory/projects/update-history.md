@@ -1,5 +1,25 @@
 # OpenClaw Update History
 
+## 2026-05-11 — v2026.4.24 → v2026.5.7
+
+- **Type:** minor (one-month rollup)
+- **Decision:** ⚠️ **TEST FIRST, THEN INSTALL** — Potentially breaking with community stability concerns
+- **Reasoning:** 
+  - 28+ fixes across plugin publishing, auth hardening, session management, Discord voice
+  - CLI schema changes: cron list/show JSON output now includes `status` field (affects external tools)
+  - Authorization tightening: stricter owner enforcement, Active Memory requires admin scope
+  - Session cache invalidation behavior changes impact long-lived sessions
+  - Community reports: WhatsApp routing broken for some 2026.4.x upgraders; isolated cron timeout issues
+  - Local config: ✅ clean, no pre-existing blockers
+  
+- **Action taken:** 
+  - Full analysis delivered to user
+  - Recommendation: Test in isolated session first (3 min), then install if stable
+  - Ready-to-run test commands + rollback plan provided
+  - Awaiting user approval to proceed with testing
+
+---
+
 ## 2026-05-04 — v2026.4.24 → v2026.5.3-1
 
 - **Type:** patch/hotfix (minor)
