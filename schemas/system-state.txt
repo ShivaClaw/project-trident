@@ -1,0 +1,4 @@
+=== Docker Compose Config ===
+=== Local Git Status ===
+On branch deploy-compose-files
+nothing to commit, working tree clean
