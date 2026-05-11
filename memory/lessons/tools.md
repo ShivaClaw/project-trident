@@ -44,6 +44,11 @@
 - **Diagnosis pattern:** curl -I https://gateway.clawofshiva.tech/ → 404; dig gateway.clawofshiva.tech → resolves correctly (72.60.119.23); container logs show no errors
 - **Next action:** Verify Traefik routing labels, check service name in docker-compose, confirm network bridge
 
+## Gateway Connectivity Diagnostic Protocol (2026-05-11)
+- **Test sequence:** (1) Verify port binding: `netstat -tlnp | grep 18789` or `lsof -i :18789` — should show `LISTEN`, (2) Check systemd env: `systemctl show openclaw-gateway | grep Environment` — confirm env vars are set, (3) Test local connection: `curl -i http://localhost:18789/` → should return 200, (4) Test remote connection (if applicable): `curl -i https://100.117.138.18:18789/` via Tailscale → should return 200, (5) Check service logs: `journalctl -u openclaw-gateway -n 50 --no-pager` — look for auth errors or binding failures
+- **Port conflict resolution:** If port 18789 is unavailable, `lsof -i :18789` will show the offending PID; `kill -9 <PID>` may be necessary before restart
+- **Status:** Protocol established 2026-05-11 04:58 EDT; applied successfully to ThinkCentre gateway
+
 ## Notes to remember
 - Distinguish gateway health from CLI shadowing
 - Prefer non-destructive environmental diagnosis before changing binaries
@@ -68,3 +73,12 @@
 - **Workaround:** Protected fields cannot be edited via tool API; requires different approach (e.g., manual file edit with elevated permissions, or config reload from different source)
 - **Lesson:** Some config fields are immutable via standard tools; check OpenClaw docs or source for protected fields before attempting edits
 - **Status:** Ollama service itself is running and healthy (confirmed via `ollama list` on host)
+
+## OpenClaw Gateway Systemd Env Var Persistence (2026-05-11)
+- **Issue:** `OPENCLAW_ALLOW_INSECURE_PRIVATE_WS=1` environment variable set during testing but not persisted to systemd service
+- **Symptom:** Gateway service starts successfully but CLI cannot connect; WebSocket auth fails with connection refused or DNS error
+- **Root cause:** Environment variables passed via shell session do NOT persist across systemd service restart
+- **Fix:** Add variable to systemd service config file under `[Service]` section: `Environment="OPENCLAW_ALLOW_INSECURE_PRIVATE_WS=1"`
+- **Workflow:** (1) Edit systemd service file (e.g., `/etc/systemd/system/openclaw-gateway.service`), (2) Add Environment= line, (3) `systemctl daemon-reload`, (4) `systemctl restart openclaw-gateway`, (5) Verify connectivity
+- **Lesson:** Systemd environment variables require config file persistence, not shell export
+- **Status:** [pending fix on ThinkCentre; documented 2026-05-11 06:03 EDT]

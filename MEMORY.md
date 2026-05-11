@@ -91,22 +91,28 @@ A layered memory architecture was adopted in late March 2026 to replace flat not
 
 ## 🤖 Models / AI Workflow
 
-### Current default model config (three-tier system, set 2026-03-26)
+### Current default model config (three-tier system, updated 2026-05-11)
 - **Heartbeat (routine):** `claude-haiku-4-5` | fallbacks: `gpt-4.1`, `gpt-5.2`
 - **Cron/agentic:** `openrouter/google/gemini-2.5-flash` | fallbacks: `gpt-5.2`, `xai/grok-3`
 - **Main session (high-level):** `claude-sonnet-4-6` | fallbacks: `gpt-5.2`, `xai/grok-3`
-- Note: Direct `openrouter/google/gemini-2.5-flash` hit a spending cap on 2026-03-26. Resolved by implementing Brave search skill as a fallback for web search.
-- Providers active: Anthropic, OpenAI, Google (via OR), xAI, OpenRouter
+- **Cron jobs using Ollama:** Now route to ThinkCentre Ollama (http://100.115.190.59:11434) via distributed gateway
+  - `ollama/qwen2.5:7b` — Primary inference engine (pulling via ThinkCentre)
+  - `ollama/qwen3.5:9b` — Secondary (pending)
+  - `ollama/dolphin3:latest` — Utility tasks
+- Note: VPS Ollama (72.60.119.23:11434) OFFLINE as of 2026-05-11 — all inference consolidated to ThinkCentre
+- Providers active: Anthropic, OpenAI, Google (via OR), xAI, OpenRouter, Ollama (ThinkCentre)
 
-### AI/ command setup
-- `ai-selector.sh` exists at `/data/.openclaw/workspace/ai-selector.sh`
-- Goal: compare costs across three models before selecting one manually
-- Status: script works, but full routing automation is not implemented
+### Infrastructure (Updated 2026-05-11)
+- **ThinkCentre Gateway:** 100.115.190.59:18789 (local)
+- **Distributed Gateway:** 100.117.138.18:18789 (Tailscale, accessible from VPS)
+- **Ollama (ThinkCentre):** http://100.115.190.59:11434 (Qwen 2.5 in progress)
+- **VPS Ollama:** ~~72.60.119.23:11434~~ [OFFLINE / ABANDONED]
 
-Pricing captured from the script:
+Pricing (cloud models):
 - Claude Opus 4.6: $15/MTok input, $45/MTok output
 - GPT-5.4 Pro: $32/MTok input, $128/MTok output
 - Gemini 3.1 Pro: $2.50/MTok input, $10/MTok output
+- Ollama (self-hosted): Free
 
 ---
 
@@ -119,6 +125,12 @@ Pricing captured from the script:
 - This can produce misleading config/model alias errors during shell diagnostics
 - Gateway/runtime health must be distinguished from stale CLI shadowing
 - Prefer explicit `/data/.npm-global/bin/openclaw` for diagnostics until stale binary cleanup is handled safely
+
+### Ollama VPS Consolidation (2026-05-11)
+- VPS Ollama (72.60.119.23:11434) was CPU-only, unreliable, and offline
+- Consolidated all inference to ThinkCentre Ollama (http://100.115.190.59:11434)
+- Disabled cron job: "Ollama Model Availability Monitor"
+- Distributed gateway operational (100.117.138.18:18789) for VPS → ThinkCentre routing
 
 ### Weather
 - Previous briefings used the weather skill and produced bad data

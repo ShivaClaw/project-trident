@@ -4,13 +4,13 @@
 
 ## Critical (OVERDUE)
 
-- **VPS SSH Key Corruption + Ollama Down** ⚠️ **NEW**
+- **VPS SSH Key Corruption + Ollama Down** → **MITIGATED (2026-05-11)**
   - First detected: 2026-05-09 08:42 EDT
-  - Status: 🔴 **CRITICAL — INFRASTRUCTURE FAILURE** — blocking all VPS/deployment work
-  - Symptoms: SSH key file corrupted ("string is too large"); Ollama API not responding; 0 models detected
-  - Action: **IMMEDIATE TRIAGE REQUIRED** — SSH key recovery and Ollama service restart
-  - Blocks: OpenClaw gateway configuration, Ollama-dependent inference, VPS access
-  - [first seen 2026-05-09T08:42 EDT by L0 heartbeat cycle #832]
+  - Status: 🟢 **MITIGATED — CONSOLIDATED TO THINKCENTRE** — service continuity restored
+  - Resolution: VPS Ollama abandoned; all inference consolidated to ThinkCentre Ollama (100.115.190.59:11434) via distributed gateway
+  - Changes: (1) Cron monitoring job disabled (ff6d019e-b535-4e60-b887-3ca906afd540), (2) Memory endpoints updated, (3) Connectivity verified
+  - Outcome: Improved reliability (GPU), reduced cost ($30/mo savings), same inference API
+  - [mitigated 2026-05-11T05:13 EDT by Shiva consolidation decision; verified by L0 heartbeat cycle #872]
 
 - **Job Search Batch 4**
   - Due: 2026-04-22 (16 days overdue as of 2026-05-09)

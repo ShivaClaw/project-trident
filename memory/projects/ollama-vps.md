@@ -1,8 +1,14 @@
-# Project: Ollama VPS Deployment
+# Project: Ollama VPS Deployment [ARCHIVED 2026-05-11]
 
-**Status:** IN PROGRESS (model download in progress)
+**Status:** ✅ SUPERSEDED — Consolidated to ThinkCentre Ollama
 **Started:** 2026-04-30 13:20 EDT
-**Goal:** Enable local inference on VPS (72.60.119.23) as fallback when OpenRouter is rate-limited
+**Ended:** 2026-05-11 01:13 EDT (VPS Ollama monitoring disabled, all inference routes through ThinkCentre)
+**Original Goal:** Enable local inference on VPS (72.60.119.23) as fallback when OpenRouter is rate-limited
+
+**CURRENT SETUP (2026-05-11):**
+- ThinkCentre Ollama: http://100.115.190.59:11434 (Qwen 2.5 pulling)
+- Distributed Gateway: 100.117.138.18:18789 (Tailscale)
+- VPS Ollama: OFFLINE / ABANDONED
 
 ## Timeline
 
@@ -28,14 +34,16 @@
 - Gateway config reloaded via SIGUSR1 signal
 - Simplified fallback chain removes heavy model, reduces storage footprint
 
-## Infrastructure
+## Infrastructure [ARCHIVED]
 
-- **VPS:** Hostinger (72.60.119.23), Docker host_network mode
-- **Endpoint:** http://72.60.119.23:11434 (raw Docker IP, not DNS)
-- **Prior config:** http://ollama:11434 (Docker DNS, now deprecated)
-- **Fallback chain (updated 2026-04-30 14:25):** Qwen 2.5 7B → Claude Haiku 4.5 → Gemini 2.5 Flash → Grok 3 Mini Fast
+- **VPS:** Hostinger (72.60.119.23) — Ollama service NO LONGER IN USE
+- **Former Endpoint:** ~~http://72.60.119.23:11434~~ [REMOVED 2026-05-11]
+- **New Endpoint:** http://100.115.190.59:11434 (ThinkCentre)
+- **Cron Job:** "Ollama Model Availability Monitor" disabled in jobs.json
+- **Fallback chain (current):** Qwen 2.5 7B (ThinkCentre) → Claude Haiku 4.5 → Gemini 2.5 Flash → Grok 3
 
-## Notes
-- CPU-only inference is slow (~3–4s per request) but suitable as fallback when OpenRouter unavailable
-- Docker host_network simplifies port exposure vs. bridge networking
-- Password SSH auth (via sshpass) working reliably; ED25519 key auth still blocked
+## Notes [ARCHIVE]
+- CPU-only inference on VPS was slow (~3–4s per request), but no longer needed
+- ThinkCentre has GPU capability and Ollama is properly integrated
+- All reliance on VPS Ollama removed 2026-05-11
+- Transition complete; VPS Ollama service can be stopped/removed

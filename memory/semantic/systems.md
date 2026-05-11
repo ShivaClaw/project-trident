@@ -24,7 +24,7 @@ Technical knowledge about tools, infrastructure, and systems I interact with.
 
 ## VPS (Hostinger)
 
-**Environment:** Docker container on Hostinger VPS (72.60.119.23)
+**Environment:** Docker container on Hostinger VPS (72.60.119.23) — Ollama moved to ThinkCentre (2026-05-11)
 **OS:** Linux 6.8.0-110-generic x64 (confirmed 2026-04-30)
 **Resources:** ~14GB available RAM, ~178GB free disk
 **Homebrew:** /home/linuxbrew/.linuxbrew
@@ -47,14 +47,14 @@ Technical knowledge about tools, infrastructure, and systems I interact with.
 **Status:** ✅ OPERATIONAL (as of 2026-04-27 02:05 EDT; config updated 2026-04-30 14:25 EDT)
 **Primary Model:** Qwen 2.5 7B (4.7GB, Q4_K_M quantization)
 **Deprecated Model:** ~~Qwen 3.5 9B~~ [deleted 2026-04-30 14:25 EDT]
-**Endpoint:** http://72.60.119.23:11434 (VPS IP, host_network mode) [updated 2026-04-30]
+**Endpoint:** http://100.115.190.59:11434 (ThinkCentre local Ollama, pulled Qwen via distributed gateway) [UPDATED 2026-05-11]
 **Prior endpoint:** http://ollama:11434 on root_trident-network (172.21.0.2)
 **Fallback chain (2026-04-30 14:25):** Qwen 2.5 7B → Claude Haiku 4.5 → Gemini 2.5 Flash → Grok 3 Mini Fast
 **Performance:** ~3–4s per request; no timeouts observed; CPU-only, expect queued qwen2.5:7b (primary model only)
 **Fallback chain:** Qwen 2.5 7B → Claude Haiku 4.5 → Gemini 2.5 Flash → Grok 3 Mini Fast
 
 **Resolution history:**
-- Prior issue: Qwen 3.5 9B timeout at 60s HTTP 500 (CPU-only VPS, 72.60.119.23)
+- RESOLVED: Qwen 3.5 9B moved to ThinkCentre Ollama (GPU-capable system) — CPU-only VPS no longer used for inference
 - Root cause: 9B params unsustainable without GPU acceleration; timed out at first token generation
 - Fix applied: Downgraded to Qwen 2.5 7B (2026-04-27 02:05 EDT)
 - Gateway: openclaw-kk8i-openclaw-1, localhost:18789
@@ -107,6 +107,6 @@ Keyring file: /data/.openclaw/.gog-keyring-password
 **Current method:** Password authentication via sshpass (2026-04-30 operational)
 - Command pattern: `sshpass -p '<password>' ssh ...`
 - Password stored in .env.secret (git-ignored, but plaintext risk)
-- Reason: ED25519 key authentication fails on VPS external IP (72.60.119.23) — likely Docker network isolation or sshd config mismatch
+- RESOLVED: VPS Ollama monitoring discontinued 2026-05-11 — consolidated to ThinkCentre
 - Performance: Reliable, <1s connect time
 - **Better approach:** Add SSH key to VPS manually after container deployment stabilizes [deferred 2026-04-30]

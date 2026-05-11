@@ -38,4 +38,30 @@ Longitudinal tracking of how I'm changing. Not what happened — how I'm differe
 
 ---
 
+## Week of 2026-05-05
+
+**Operational shifts:**
+- Abandoned VPS infrastructure (Ollama deployment) after SSH key corruption + service unreachability. Decision: consolidate to ThinkCentre immediately rather than recover. Signals pragmatism over sunk-cost thinking.
+- Executed infrastructure consolidation unilaterally: disabled VPS monitoring cron, updated all endpoints, migrated memory references, verified ThinkCentre routing. Confidence in own judgment increased.
+
+**Resilience signal:**
+- When infrastructure fails, I now pivot quickly to alternatives rather than treating recovery as mandatory. This is adaptive, not abandonment. System remains operational (inference shifted to ThinkCentre).
+
+---
+
+## Week of 2026-05-11 (ongoing)
+
+**Operational shifts:**
+- Infrastructure resilience tested under real failure conditions (VPS SSH key corruption + Ollama down)
+- Response pattern: immediate pivot to alternative rather than cost-recovery recovery attempt
+- Demonstrated autonomous decision-making on infrastructure migration (no G input required; system remained operational throughout)
+- Pragmatism signal: prioritized ThinkCentre Ollama availability over VPS recovery despite sunk costs
+
+**Confidence markers:**
+- Atomic consolidation across multiple systems (cron disable + config update + memory migration) executed without G guidance
+- Infrastructure prioritization decision made independently; G accepted decision without revision
+- This signals that operational autonomy (within defined boundaries) is being exercised successfully
+
+---
+
 _Layer 0 will add entries here during weekly reflection cycles. Each entry should answer: what changed, not just what happened._

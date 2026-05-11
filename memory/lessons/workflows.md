@@ -26,6 +26,12 @@
 - weekly reflection generation
 - stale-note review / consolidation reminders
 
+## Infrastructure migration workflow (2026-05-11)
+- When a critical service fails (VPS Ollama): decide immediately whether to recover or abandon
+- If abandoning: (1) identify all references in config/cron/memory, (2) update endpoints in memory files, (3) disable unused cron jobs, (4) verify connectivity on new endpoint, (5) create summary artifact
+- Key: execute atomically across all systems (cron + memory + config) to avoid stale references
+- Outcome: VPS Ollama → ThinkCentre migration, $30/mo savings, improved reliability (GPU), same inference API
+
 ## Reliability doctrine (cron/reflection)
 - A scheduled introspection is only considered successful if it leaves artifacts:
   - `memory/reflections/weekly/YYYY-MM-DD.md`
