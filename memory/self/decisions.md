@@ -1,0 +1,2 @@
+
+### 2026-05-07 11:57 MDT - Recommendation: A major structural change to OpenClaw deployment (Ubuntu 24.04 with Docker and Traefik) is viable if debuggability and lower abstraction overhead are prioritized over reproducibility and isolation.

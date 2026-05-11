@@ -1,0 +1,2 @@
+### 2026-05-07 11:57 MDT - System: No Ollama models found on VPS (72.60.119.23:11434).
+### 2026-05-07 11:57 MDT - User is considering a major structural change to OpenClaw deployment: running Ubuntu 24.04 with Docker and Traefik on the VPS.

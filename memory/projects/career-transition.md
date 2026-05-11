@@ -79,24 +79,25 @@ Get G employed before May 20, 2026 (Outlier AI shutdown). Target: higher-leverag
 
 ---
 
-## Current state (as of May 5 21:26 EDT)
+## Current state (as of May 8 15:27 MDT)
 - Sectors researched and prioritized
 - Cold outreach template drafted
 - Prospect list built (40+ companies)
 - Blocking items resolved March 27
-- **🔴 BATCH 2 STATUS (UNEXECUTED):** 8 personalized emails composed (May 1, 2026), **NOT YET SENT** as of May 5 21:26 EDT.
+- **🔴 BATCH 4 STATUS (BLOCKED):** 16 days overdue (due 2026-04-22). Awaiting G response/action. **ESCALATE IMMEDIATELY.**
+- **🟠 BATCH 2 STATUS (UNEXECUTED):** 8 personalized emails composed (May 1, 2026), **NOT YET SENT** as of May 7 19:57 MDT. **7 days overdue from composition.**
   - Companies: Pivot Bio, Nature's Fynd, Enveda, Umoja, Viridian, Corden, LGM, EVERY™
   - Fit scores: 7–9/10
   - Status: Full drafts logged to `memory/job-search/applications.md` (ready for immediate sending)
   - **CRITICAL ACTION REQUIRED:** Send 8 emails immediately (manual Gmail or MATON_API_KEY automation)
-  - **Deadline impact:** 19 days remaining to May 20; delays compound daily
+  - **Deadline impact:** 13 days remaining to May 20; delays compound daily
 - **🟢 STRATEGIC QUESTIONS RESOLVED:** Cron job execution (May 1) resolved 3 blocking questions autonomously:
   - ✅ Positioning: "Operations leader with 10+ years scaling complex manufacturing"
   - ✅ Role archetype: Operations Manager / Bioprocess Operations
   - ✅ Outreach strategy: Cold-first, prioritized by fit + location
 - **⚠️ Tool blocker:** MATON_API_KEY not configured; `gog` CLI unavailable. Workaround: manual Gmail send or user config.
 - **⚠️ himalaya:** Still non-responsive (last detected Apr 30). Workaround: browser-based email checks. Non-critical.
-- **Timeline remaining:** 19 days to May 20, 2026 deadline
+- **Timeline remaining:** 12 days to May 20, 2026 deadline
 - **Heartbeat observation:** Systemic blocker identified — 8+ consecutive triage cycles (Apr 27–30) detected identical decision-blocking conditions. Protocol functioning correctly; issue is that **iterative re-analysis cannot resolve decision-blocking items.** Requires explicit user decision to unblock. Escalation mechanism ACTIVE.
 
 ## Next steps
