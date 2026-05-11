@@ -49,6 +49,21 @@
 - **Port conflict resolution:** If port 18789 is unavailable, `lsof -i :18789` will show the offending PID; `kill -9 <PID>` may be necessary before restart
 - **Status:** Protocol established 2026-05-11 04:58 EDT; applied successfully to ThinkCentre gateway
 
+## Network Routing: VPS→LAN Connectivity (2026-05-11)
+- **Problem:** VPS (external IP 72.60.119.23, Docker container) cannot directly reach ThinkCentre's internal LAN IP (100.115.190.59:11434)
+  - Root cause: Network topology — VPS cannot route to 100.x.x.x (ThinkCentre local network)
+  - Distributed gateway (100.117.138.18:18789 via Tailscale) is reachable from VPS but does NOT proxy Ollama traffic on port 11434
+  - SSH tunnel attempted but SSH key file `/home/boss/.ssh/id_rsa` is missing on VPS container
+- **Solution space:**
+  - SSH tunnel + port forwarding (requires SSH key file or password)
+  - VPN tunnel (Tailscale or other)
+  - Restore local Ollama on VPS (undoes consolidation savings)
+  - Configure gateway to proxy Ollama (requires `config.patch` investigation)
+- **Lesson:** Testing VPS-to-ThinkCentre connectivity BEFORE consolidation would have caught this. "COMPLETE" status was premature.
+  - Better workflow: Validate from source/destination pair before marking infrastructure changes complete
+- **Impact:** VPS cron jobs cannot access inference until this is resolved
+- **Status:** BLOCKED; awaiting G input on solution preference [2026-05-11 08:04 UTC]
+
 ## Notes to remember
 - Distinguish gateway health from CLI shadowing
 - Prefer non-destructive environmental diagnosis before changing binaries
@@ -82,3 +97,12 @@
 - **Workflow:** (1) Edit systemd service file (e.g., `/etc/systemd/system/openclaw-gateway.service`), (2) Add Environment= line, (3) `systemctl daemon-reload`, (4) `systemctl restart openclaw-gateway`, (5) Verify connectivity
 - **Lesson:** Systemd environment variables require config file persistence, not shell export
 - **Status:** [pending fix on ThinkCentre; documented 2026-05-11 06:03 EDT]
+
+## OpenClaw Gateway Device Pairing Security (2026-05-11)
+- **Issue:** Remote CLI connections to OpenClaw gateway require device pairing approval before any operations are allowed
+- **Symptom:** `openclaw gateway call` or RPC methods fail with error: `GatewayClientRequestError: device pairing required (requestId: ...)`
+- **Root cause:** Gateway has security feature preventing untrusted remote devices from executing operations without explicit approval
+- **Workflow to fix:** (1) User must approve device pairing on the gateway host's Control UI, (2) Control UI is typically at gateway default address (http://localhost or https://<host>), (3) Pairing approval grants that CLI/device permission to execute commands, (4) After approval, retry the CLI command
+- **Example:** LoClaw (ThinkCentre) requires user to approve CLI pairing on its Control UI before remote Ollama configuration via `openclaw gateway call` works
+- **Lesson:** This is intentional security; do not bypass. For distributed OpenClaw setup, always approve pairing on each node's Control UI before attempting remote configuration
+- **Status:** LoClaw configuration blocked pending G's pairing approval [2026-05-11T07:18 EDT]

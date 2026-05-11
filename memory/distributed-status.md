@@ -50,7 +50,17 @@ Shiva (Me — Docker/VPS:18789)
 
 **Current:** 1.0 — Telegram message bus with structured envelope
 **Status:** Active
-**Last updated:** 2026-05-11T02:19:00Z
+**Last updated:** 2026-05-11T08:33:00Z
+
+## Gateway Access Points (DNS)
+
+| Gateway | URL | Instance | Role |
+|---------|-----|----------|------|
+| Shiva | gateway.clawofshiva.tech | Docker/VPS:18789 | Central orchestrator |
+| Coordinator | enter.clawofshiva.tech | Bare-Metal VPS:127.0.0.1:18789 | Task orchestration |
+| LoClaw | TBD | ThinkCentre:100.117.138.18:18789 | Local inference |
+
+**Updated:** 2026-05-11 08:24 EDT — G confirmed gateway routing; bare-metal gateway DNS requested
 
 ## Pending Actions
 

@@ -2,15 +2,23 @@
 
 **Last updated:** 2026-05-09T08:51:45Z (Cycle #832 — Heartbeat-Integrated L0H)
 
-## Critical (OVERDUE)
+## Critical (ACTIVE BLOCKER)
 
-- **VPS SSH Key Corruption + Ollama Down** → **MITIGATED (2026-05-11)**
+- **VPS→ThinkCentre Ollama Connectivity** 🔴 NEW BLOCKER — 2026-05-11 08:04 UTC
+  - **Issue:** VPS cannot reach ThinkCentre Ollama (100.115.190.59:11434) directly
+  - **Root cause:** VPS external routing cannot address ThinkCentre LAN IP; distributed gateway doesn't proxy Ollama
+  - **Impact:** VPS-based cron jobs blocked from inference
+  - **Status:** REQUIRES IMMEDIATE SOLUTION
+  - **Solution space:** SSH tunnel (SSH key missing), restore local Ollama on VPS, or gateway proxy config
+  - **Decision pending:** G input on preferred approach
+  - [detected 2026-05-11T08:04 UTC by Shiva troubleshooting; escalated by L0 heartbeat cycle #883]
+
+- **VPS SSH Key Corruption + Ollama Down** → **PARTIALLY RESOLVED (2026-05-11)**
   - First detected: 2026-05-09 08:42 EDT
-  - Status: 🟢 **MITIGATED — CONSOLIDATED TO THINKCENTRE** — service continuity restored
-  - Resolution: VPS Ollama abandoned; all inference consolidated to ThinkCentre Ollama (100.115.190.59:11434) via distributed gateway
-  - Changes: (1) Cron monitoring job disabled (ff6d019e-b535-4e60-b887-3ca906afd540), (2) Memory endpoints updated, (3) Connectivity verified
-  - Outcome: Improved reliability (GPU), reduced cost ($30/mo savings), same inference API
-  - [mitigated 2026-05-11T05:13 EDT by Shiva consolidation decision; verified by L0 heartbeat cycle #872]
+  - Status: 🟠 **MITIGATION INCOMPLETE** — Ollama abandoned to ThinkCentre, but VPS inference routing BLOCKED
+  - Consolidation status: Endpoint moved to ThinkCentre, cron job disabled, but VPS connectivity not solved
+  - Outcome: Inference reliability improved (GPU), cost reduced ($30/mo), but VPS still isolated
+  - [partially resolved 2026-05-11T05:13 EDT; escalated 2026-05-11T08:04 UTC]
 
 - **Job Search Batch 4**
   - Due: 2026-04-22 (16 days overdue as of 2026-05-09)
@@ -39,9 +47,10 @@
 
 ## Heartbeat Status
 
-- **Main session:** ACTIVE (resumed 2026-05-09 04:37 EDT after 11-day idle)
-- **Cron heartbeat:** Continuing at 15-min interval; cycle #832 active
-- **Last cycle:** #832 (2026-05-09T08:51:45Z) — NEW CRITICAL SIGNALS: VPS infrastructure failure
-- **VPS Deployment:** BLOCKED (SSH key corruption + Ollama down; requires immediate recovery)
-- **Career transition Batch 2:** 8 emails READY FOR EXECUTION (composed May 1, NOT YET SENT, 8 days overdue) — 11 days remaining to May 20 deadline
-- **Career transition Batch 4:** BLOCKED (16+ days overdue, awaiting G input)
+- **Main session:** ACTIVE (resumed 2026-05-09 04:37 EDT; resumed 2026-05-11 08:04 UTC)
+- **Cron heartbeat:** Continuing at 15-min interval; cycle #883 active
+- **Last cycle:** #882 (2026-05-11T08:03:00Z) — NEW CRITICAL SIGNAL: VPS Ollama routing BLOCKED
+- **VPS Deployment:** BLOCKED (Ollama connectivity to ThinkCentre failed; requires routing solution)
+- **LoClaw Setup:** BLOCKED (device pairing pending G approval on LoClaw Control UI)
+- **Career transition Batch 2:** 8 emails READY FOR EXECUTION (composed May 1, NOT YET SENT, 10 days overdue) — 9 days remaining to May 20 deadline
+- **Career transition Batch 4:** BLOCKED (17+ days overdue, awaiting G input)
