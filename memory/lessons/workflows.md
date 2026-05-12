@@ -37,3 +37,17 @@
   - `memory/reflections/weekly/YYYY-MM-DD.md`
   - and at least one downstream update (projects/self/lessons/performance) when applicable
 - If cron status says "ok" but artifacts are missing, treat it as a failure mode (likely sandbox/tooling error) and run a manual consolidation pass.
+
+## HEARTBEAT.md scope protocol (2026-05-11)
+- **Protocol:** G issued explicit instruction to "Follow HEARTBEAT.md strictly."
+- **Documented scope (3 sections):** (1) Standing check—flag job search blocking items; (2) Trading check (6 AM–4 PM MDT weekdays); (3) Heartbeat signals—detect and stash.
+- **Anti-pattern:** Over-relaying infrastructure status (VPS Ollama routing, Coordinator state, LoClaw pairing) on every heartbeat, even when unchanged. Violates documented scope.
+- **Fix:** Agent deferred repeated unchanged-status relays starting 17:09 EDT (May 11). Infrastructure monitoring remains in Layer 0 heartbeat checks (SECTION A.3), but infrastructure-only status relays (without job search or signal context) no longer propagate to daily log.
+- **Key lesson:** When user specifies scope boundaries, honor them strictly. Inference about "what should be included" is subordinate to explicit instruction. This is a voice/integrity principle.
+
+## Cron instruction-cycling conflict (2026-05-11 @ 19:39 EDT)
+- **Root cause:** jobs.json configured with 13 jobs firing every 5 minutes, tagged HEARTBEAT but executing outside documented HEARTBEAT.md scope (repeatedly requesting infrastructure status relay)
+- **Conflict:** Agent correctly deferred relays to comply with user directive; cron system continues cycling identical requests, contradicting explicit "follow HEARTBEAT.md strictly" instruction
+- **Escalation:** Agent escalated at 2026-05-11T23:39Z (19:39 EDT) requesting explicit user instruction to either (A) update HEARTBEAT.md to include infrastructure monitoring, or (B) send direct override to resume relay
+- **Status (as of 19:49 EDT):** User response pending; cron continues cycling at identical intervals with unresolved instruction conflict
+- **Resolution required:** Explicit user decision on protocol scope — either expand HEARTBEAT.md or disable infrastructure monitoring from heartbeat cycle

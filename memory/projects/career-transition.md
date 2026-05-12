@@ -79,18 +79,18 @@ Get G employed before May 20, 2026 (Outlier AI shutdown). Target: higher-leverag
 
 ---
 
-## Current state (as of May 8 15:27 MDT)
+## Current state (as of May 11 20:24 EDT)
 - Sectors researched and prioritized
 - Cold outreach template drafted
 - Prospect list built (40+ companies)
 - Blocking items resolved March 27
-- **🔴 BATCH 4 STATUS (BLOCKED):** 16 days overdue (due 2026-04-22). Awaiting G response/action. **ESCALATE IMMEDIATELY.**
-- **🟠 BATCH 2 STATUS (UNEXECUTED):** 8 personalized emails composed (May 1, 2026), **NOT YET SENT** as of May 7 19:57 MDT. **7 days overdue from composition.**
+- **🔴 BATCH 4 STATUS (BLOCKED):** 19+ days overdue (due 2026-04-22). Awaiting G response/action. **ESCALATE IMMEDIATELY.**
+- **🟠 BATCH 2 STATUS (EXECUTION DECISION PENDING):** 8 personalized emails composed (May 1, 2026), **NOT YET SENT** as of May 11 20:24 EDT. **10 days overdue from composition.**
   - Companies: Pivot Bio, Nature's Fynd, Enveda, Umoja, Viridian, Corden, LGM, EVERY™
   - Fit scores: 7–9/10
   - Status: Full drafts logged to `memory/job-search/applications.md` (ready for immediate sending)
-  - **CRITICAL ACTION REQUIRED:** Send 8 emails immediately (manual Gmail or MATON_API_KEY automation)
-  - **Deadline impact:** 13 days remaining to May 20; delays compound daily
+  - **DECISION PENDING:** Manual Gmail send vs MATON_API_KEY automation. Both paths viable; awaiting G preference.
+  - **Deadline impact:** 9 days remaining to May 20; delays compound daily
 - **🟢 STRATEGIC QUESTIONS RESOLVED:** Cron job execution (May 1) resolved 3 blocking questions autonomously:
   - ✅ Positioning: "Operations leader with 10+ years scaling complex manufacturing"
   - ✅ Role archetype: Operations Manager / Bioprocess Operations

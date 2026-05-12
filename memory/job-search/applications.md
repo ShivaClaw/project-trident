@@ -1,8 +1,9 @@
 # Job Search Applications & Outreach Tracker
 
-**Last Updated:** 2026-05-01 14:00 UTC  
-**Status:** Batch 2 — 8 Gmail drafts created ✅ 2026-05-04 20:33 UTC  
-**Deadline:** May 20, 2026 (16 days remaining)
+**Last Updated:** 2026-05-11 14:00 UTC  
+**Status:** Batch 4 — 5 Gmail drafts created ✅ 2026-05-11 14:00 UTC  
+**Deadline:** May 20, 2026 (9 days remaining)  
+**Cumulative:** 24 opportunities across 4 batches (Batches 1-4 complete)
 
 ---
 
@@ -54,6 +55,35 @@
 | Ananda Medicinals | Process Engineer (Cannabis→Pharma) | careers@andandamedicinals.com | Cannabis → Pharma Bridge — Brandon Kirksey \| 10+ Yrs Cultivation + Biotech Vision | 2026-05-05 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r-1935957601339210063) | 24/10 |
 
 **Total Batch 3:** 6 companies, average fit 25.8/30, all personalized emails with resume attachments ready.
+
+---
+
+## BATCH 4 — 5 Gmail Drafts Created ✅ 2026-05-11 14:00 UTC
+
+**Status:** Ready for review and sending from Gmail.
+**Average Fit Score:** 26.6/30
+
+### Tier 1: AI/Biotech Convergence (2 companies)
+
+| Company | Role | Email | Subject | Created | Status | Draft Link | Fit Score |
+|---------|------|-------|---------|---------|--------|-----------|----------|
+| Benchling | Software Engineer, Full Stack (Chemistry) | careers@benchling.com | Biotech + Chemistry SaaS Platform Engineering — Brandon Kirksey | 2026-05-11 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r-3510958903111991059) | 29/30 |
+| Tempus AI | Medical Science Liaison (Oncology/Genomics) | careers@tempus.com | AI-Driven Genomics + MSL Bridge — Brandon Kirksey | 2026-05-11 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r3237542541162076666) | 26/30 |
+
+### Tier 2: Synthetic Biology & Research (2 companies)
+
+| Company | Role | Email | Subject | Created | Status | Draft Link | Fit Score |
+|---------|------|-------|---------|---------|--------|-----------|----------|
+| Bolder BioTechnology | Ph.D. Scientist / Research Associate | careers@bolderbio.com | Synthetic Biology Research — Brandon Kirksey | 2026-05-11 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r-1836958504304612580) | 27/30 |
+| IDT (Danaher) | Applications Scientist - Synthetic Biology | careers@danaher.com | Synthetic Biology Technical Support — Brandon Kirksey | 2026-05-11 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r1224444680102824267) | 26/30 |
+
+### Tier 3: AI/ML Engineering (1 company)
+
+| Company | Role | Email | Subject | Created | Status | Draft Link | Fit Score |
+|---------|------|-------|---------|---------|--------|-----------|----------|
+| August Schell | AI/Machine Learning Specialist | careers@augustschell.com | AI/ML Engineering + Domain Expertise — Brandon Kirksey | 2026-05-11 | 📧 Draft | [View](https://mail.google.com/mail/u/0/#drafts/r2076528540672812149) | 25/30 |
+
+**Total Batch 4:** 5 companies, average fit 26.6/30, all with personalized emails and resume attachments ready.
 
 ---
 
